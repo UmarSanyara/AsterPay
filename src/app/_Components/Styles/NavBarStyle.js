@@ -11,7 +11,7 @@ align-items: center;
 justify-content: center;
 padding: 0px 161px 0px 82px; 
 gap: 217px;
-overflow: hidden ;
+position: relative;
 .Ham
 {
   display: none;
@@ -200,4 +200,47 @@ h3
     display: none;
     
    }
+`
+export const NavRes = styled.div`
+padding: 60px 20px 60px 20px ;
+width: 90%;
+background: var(--background, #071B40);
+position: absolute;
+top: 105%;
+left: 3.5%;
+z-index: 999;
+border-radius: 20px;
+overflow: hidden;
+animation: move 1s;
+
+@keyframes move {
+  from{
+    transform : translateY(-100%);
+    opacity: 0;
+  }
+  to
+  {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+`
+export const ResItems= styled.div`
+border-bottom: 1px solid #fff;
+cursor: pointer;
+h3
+{
+  color: #fff;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 100px;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+h3:hover
+{
+  color: yellowgreen;
+}
 `

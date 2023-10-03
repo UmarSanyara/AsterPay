@@ -3,20 +3,34 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../_assets/images/Logo.png";
 import HamBurger from "../_assets/images/HamBurger.png"
-import { Nav, NavItems, Items } from "./Styles/NavBarStyle";
+import { Nav, NavItems, Items,NavRes ,ResItems} from "./Styles/NavBarStyle";
 
 const NavBar = () => {
   const [activeItem, setActiveItem] = useState(0);
+  const [isNavResOpen, setIsNavResOpen] = useState(false);
 
   const handleItemClick = (index) => {
     setActiveItem(index === activeItem ? null : index);
   };
 
+  const toggleNavRes = () => {
+    setIsNavResOpen(!isNavResOpen); 
+  };
+
   return (
     <Nav>
-      <Image className="Ham" src={HamBurger} alt="Menu"/>
-      <Image className="Logo" src={Logo} alt="Logo" />
 
+      <NavRes style={{ display: isNavResOpen ? "block" : "none" }}>
+        <ResItems><h3>Home</h3></ResItems>
+        <ResItems><h3>Send Money</h3></ResItems>
+        <ResItems><h3>Security</h3></ResItems>
+        <ResItems><h3>Support</h3></ResItems>
+        <ResItems><h3>About Us</h3></ResItems>
+        <ResItems><h3>Blog</h3></ResItems>
+      </NavRes>
+
+      <Image className="Ham" src={HamBurger} alt="Menu" onClick={toggleNavRes}/>
+      <Image className="Logo" src={Logo} alt="Logo" />
       <NavItems>
         <Items
           onClick={() => handleItemClick(0)}
@@ -61,6 +75,7 @@ const NavBar = () => {
           <span className={activeItem === 5 ? "active" : ""}></span>
         </Items>
       </NavItems>
+
     </Nav>
   );
 };
