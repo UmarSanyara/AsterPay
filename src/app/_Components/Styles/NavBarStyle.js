@@ -74,6 +74,7 @@ position: relative;
   justify-content: space-between;
   padding: 0px 50px 0px 50px; 
   gap: 0px !important;
+  min-height: 80px !important;
   .Ham
 {
   display: block;
@@ -90,6 +91,7 @@ position: relative;
 
 @media (max-width : 390px)
 {
+  min-height: 80px !important;
   .Ham
 {
   display: block;
@@ -101,6 +103,7 @@ position: relative;
   width: 120px !important;
   height: 30px !important;
 }
+
 }
 
 `
