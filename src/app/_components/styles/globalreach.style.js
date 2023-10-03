@@ -13,7 +13,7 @@ export const Headerdiv = styled.div`
   gap: 22px;
 `;
 export const Heading = styled.span`
-  color: var(--13-27-62-Aster-pay, #0d1b3e);
+  color: #0d1b3e;
   text-align: center;
   font-family: "Jost";
   font-size: 50px;
@@ -23,7 +23,7 @@ export const Heading = styled.span`
 `;
 export const Paragraph = styled.span`
   width: 625px;
-  color: var(--Blue, #0d1b3e);
+  color: #0d1b3e;
   text-align: center;
   font-family: "Jost";
   font-size: 18px;
@@ -50,7 +50,7 @@ export const Country = styled.div`
   background: #fff;
 `;
 export const CountryName = styled.span`
-  color: var(--Blue, #0d1b3e);
+  color: #0d1b3e;
   font-family: "Jost";
   font-size: 22px;
   font-style: normal;
