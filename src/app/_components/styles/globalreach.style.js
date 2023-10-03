@@ -6,10 +6,19 @@ export const Maindiv = styled.div`
   gap: 91px;
   padding-right: 78px;
   padding-left: 79px;
+  @media only screen and (max-width: 910px) {
+    padding-right: 68px;
+    padding-left: 69px;
+  }
+  @media only screen and (max-width: 650px) {
+    padding-right: 58px;
+    padding-left: 59px;
+  }
 `;
 export const Headerdiv = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 22px;
 `;
 export const Heading = styled.span`
@@ -20,6 +29,12 @@ export const Heading = styled.span`
   font-style: normal;
   font-weight: 600;
   line-height: 65px; /* 130% */
+  @media only screen and (max-width: 900px) {
+    font-size: 40px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 30px;
+  }
 `;
 export const Paragraph = styled.span`
   width: 625px;
@@ -30,6 +45,18 @@ export const Paragraph = styled.span`
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  @media only screen and (max-width: 900px) {
+    width: 525px;
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 600px) {
+    width: 400px;
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 450px) {
+    width: 320px;
+    font-size: 16px;
+  }
 `;
 export const Countriesdiv = styled.div`
   display: flex;
