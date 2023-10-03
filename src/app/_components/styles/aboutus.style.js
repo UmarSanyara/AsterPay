@@ -34,21 +34,46 @@ export const Headerdiv = styled.div`
     font-weight: 600;
     line-height: 65px; /* 130% */
     padding-bottom: 27px;
+    @media only screen and (max-width: 900px) {
+      font-size: 45px;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 35px;
+    }
+    @media only screen and (max-width: 400px) {
+      font-size: 30px;
+    }
   }
   .para {
     width: 768px;
-    color: var(--13-27-62-Aster-pay, #0d1b3e);
+    color: #0d1b3e;
     text-align: center;
     font-family: "Jost";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    @media only screen and (max-width: 900px) {
+      width: 700px;
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 700px) {
+      width: 500px;
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 500px) {
+      width: 300px;
+      font-size: 16px;
+    }
   }
 `;
 export const Sectionsdiv = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 59px;
+  padding-bottom: 59px;
   padding-right: 79px;
   padding-left: 79px;
 `;
@@ -62,14 +87,50 @@ export const Section = styled.div`
   display: flex;
   gap: 20px;
   padding-right: 22px;
+  @media only screen and (max-width: 600px) {
+    width: 486px;
+    height: auto;
+  }
+  @media only screen and (max-width: 390px) {
+    width: 286px;
+    height: auto;
+  }
+  .vision {
+    margin-top: 25px;
+    margin-left: 22px;
+    display: flex;
+    justify-content: center;
+  }
+  .journey {
+    width: 390px;
+    height: 80px;
+    background-color: rgba(225, 228, 255, 0.5);
+    margin-top: 25px;
+    margin-left: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .beapart {
+    width: 260px;
+    height: 80px;
+    background-color: rgba(255, 241, 215, 0.5);
+    margin-top: 25px;
+    margin-left: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const Imagediv = styled.div`
-  width: 80px;
+  width: 390px;
   height: 80px;
   background-color: rgba(255, 229, 233, 0.5);
   margin-top: 25px;
   margin-left: 22px;
-
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,5 +155,24 @@ export const Sectiondetail = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 127.778% */
+  }
+`;
+export const Button = styled.button`
+  width: 274px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--purple, #4743c9);
+  color: #fff;
+  text-align: center;
+  font-family: "Jost";
+  border: 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 40%;
+  @media only screen and (max-width: 500px) {
+    margin-left: 20%;
   }
 `;

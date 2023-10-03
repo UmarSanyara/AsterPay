@@ -61,6 +61,7 @@ export const Paragraph = styled.span`
 export const Countriesdiv = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 47px;
 `;
 
