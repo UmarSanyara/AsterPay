@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { Imagediv, Senddiv, OnlineMoneydiv, MoneyPicdiv, Contentdiv, Texth4, Detailp, } from './styles/sendmoney.style';
+import { Imagediv, Senddiv, OnlineMoneydiv, MoneyPicdiv, Contentdiv, Texth4, Detailp,Maindiv, Backgrounddiv } from './styles/sendmoney.style';
 
 import Image from "next/image";
 import SendMoney from "../_assets/images/sendmoney/SendMoney.png";
@@ -13,18 +13,27 @@ import DollarsImage from "../_assets/images/sendmoney/DollarsImage.png";
 
 
 
-const sendmoney = () => {
+const Sendmoney = () => {
   return (
+
+    <Maindiv>
+
+  
+    <Backgrounddiv>
+        
+    </Backgrounddiv>
     <Senddiv>
+
+      
       <Imagediv>
 
-        <Image src={SendMoney} width={517} height={566}/>
+        <Image src={SendMoney} className='sendpic'/>
       </Imagediv>
       
       <OnlineMoneydiv>
 
           <MoneyPicdiv>
-            <Image src={DollarsImage} width={191.93} height={158.46}/>
+            <Image className='dollarsimage' src={DollarsImage} />
           </MoneyPicdiv>
 
           <Contentdiv>
@@ -40,8 +49,11 @@ const sendmoney = () => {
       </OnlineMoneydiv>
       
     </Senddiv>
+
+    </Maindiv>
+ 
   )
 }
 
-export default sendmoney
+export default Sendmoney
 
