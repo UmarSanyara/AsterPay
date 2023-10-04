@@ -10,7 +10,7 @@ export const Maindiv = styled.div`
   .watermark {
     transform: rotate(90deg);
     position: absolute;
-    top: 5%;
+    top: 2%;
     right: 0%;
     @media only screen and (max-width: 1200px) {
       top: 0%;

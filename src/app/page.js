@@ -9,11 +9,16 @@ import WelcomePage from "./_components/WelcomePage";
 import Process from "./_components/process";
 import Help from "./_components/help";
 import Security from "./_components/security";
+import MiddleBar from "./_components/MiddleBar";
+import WhyPage from "./_components/WhyPage";
+
 function Page() {
   return (
     <main className={styles.main}>
       <NavBar />
       <WelcomePage />
+      <MiddleBar />
+      <WhyPage />
       <Globalreach />
       <Sendmoney />
       <Process />

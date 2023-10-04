@@ -9,7 +9,7 @@ import {
   Banner,
   PaymentDetails,
   Exchange,
-} from "./Styles/WelcomePageStyle";
+} from "./styles/WelcomePageStyle";
 import Clock from "./../_assets/images/Clock.png";
 import GooglePlay from "./../_assets/images/GooglePlay.png";
 import AppleStore from "./../_assets/images/Apple.png";

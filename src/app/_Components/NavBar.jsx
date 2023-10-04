@@ -3,7 +3,15 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../_assets/images/Logo.png";
 import HamBurger from "../_assets/images/HamBurger.png";
-import { Nav, NavItems, Items, NavRes, ResItems } from "./styles/NavBarStyle";
+import {
+  Nav,
+  NavItems,
+  Items,
+  NavRes,
+  ResItems,
+  StyledLink,
+} from "./styles/NavBarStyle";
+import Link from "next/link";
 
 const NavBar = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -33,7 +41,11 @@ const NavBar = () => {
           <h3>Support</h3>
         </ResItems>
         <ResItems>
-          <h3>About Us</h3>
+          <Link href="#Aboutus">
+            <StyledLink>
+              <h3>About Us</h3>
+            </StyledLink>
+          </Link>
         </ResItems>
         <ResItems>
           <h3>Blog</h3>
@@ -65,7 +77,12 @@ const NavBar = () => {
           <span className={activeItem === 3 ? "active" : ""}></span>
         </Items>
         <Items onClick={() => handleItemClick(4)} isActive={activeItem === 4}>
-          <h3>About Us</h3>
+          <Link href="#Aboutus">
+            {" "}
+            <StyledLink>
+              <h3>About Us</h3>
+            </StyledLink>{" "}
+          </Link>
           <span className={activeItem === 4 ? "active" : ""}></span>
         </Items>
         <Items onClick={() => handleItemClick(5)} isActive={activeItem === 5}>

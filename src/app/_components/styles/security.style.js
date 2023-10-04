@@ -4,6 +4,7 @@ export const Maindiv = styled.div`
   padding-top: 142px;
   padding-left: 19px;
   padding-right: 79px;
+  padding-bottom: 130px;
 
   @media (max-width: 1300px) and (min-width: 1200px) {
     padding-right: 50px;

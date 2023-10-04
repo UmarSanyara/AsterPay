@@ -17,7 +17,7 @@ import Journey from "../_assets/images/aboutus/journey.png";
 import BeaPart from "../_assets/images/aboutus/beapart.png";
 const aboutus = () => {
   return (
-    <Maindiv>
+    <Maindiv id="Aboutus">
       <Image
         src={Clockwatermark}
         width={254}

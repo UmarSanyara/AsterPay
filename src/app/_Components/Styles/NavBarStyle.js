@@ -81,18 +81,8 @@ export const Nav = styled.div`
     }
   }
 
-  @media (max-width: 390px) {
-    min-height: 80px !important;
-    .Ham {
-      display: block;
-      width: 30px !important;
-      height: 30px !important;
-    }
-    .Logo {
-      width: 120px !important;
-      height: 30px !important;
-    }
-  }
+} 
+
 `;
 
 export const NavItems = styled.div`
@@ -213,4 +203,9 @@ export const ResItems = styled.div`
   h3:hover {
     color: yellowgreen;
   }
+`;
+export const StyledLink = styled.a`
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: color 0.3s ease-in-out; /* Example transition */
 `;
