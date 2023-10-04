@@ -8,6 +8,7 @@ import NavBar from "./_components/NavBar";
 import WelcomePage from "./_components/WelcomePage";
 import Process from "./_components/process";
 import Help from "./_components/help";
+import Security from "./_components/security";
 function Page() {
   return (
     <main className={styles.main}>
@@ -16,6 +17,7 @@ function Page() {
       <Globalreach />
       <Sendmoney />
       <Process />
+      <Security />
       <Help />
       <Aboutus />
       <Blogs />

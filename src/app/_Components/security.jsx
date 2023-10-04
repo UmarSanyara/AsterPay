@@ -17,6 +17,7 @@ import {
     Featuresdiv,
     Headh5,
     Parap,
+    Paraextp,
 
 }
 from "./styles/security.style";
@@ -67,7 +68,7 @@ const security = () => {
             <Featuresdiv>
               <Logodiv>
 
-                <LogoImgdiv>
+                <LogoImgdiv className='F'>
                  
                   <Image class="Financial" src={Financial} />
 
@@ -100,7 +101,7 @@ const security = () => {
             <Featuresdiv>
               <Logodiv>
 
-                <LogoImgdiv>
+                <LogoImgdiv className='Thr'> 
                  
                   <Image class="ThreeD" src={ThreeD} />
 
@@ -134,7 +135,7 @@ const security = () => {
             <Featuresdiv>
               <Logodiv>
 
-                <LogoImgdiv>
+                <LogoImgdiv className='Bio'>
                  
                   <Image class="Biometric" src={Biometric} />
 
@@ -168,7 +169,7 @@ const security = () => {
             <Featuresdiv>
               <Logodiv>
 
-                <LogoImgdiv>
+                <LogoImgdiv className='Fra'>
                  
                   <Image class="Fraud" src={Fraud} />
 
@@ -189,6 +190,41 @@ const security = () => {
                     identify and address potential threats in real-time,
                      ensuring the highest level of security for your funds.
                    </Parap>
+
+
+
+              </Textingdiv>
+
+
+            </Featuresdiv>
+
+
+            <Featuresdiv>
+              <Logodiv>
+
+                <LogoImgdiv className='Cer'>
+                 
+                  <Image class="Certified" src={Certified} />
+
+                </LogoImgdiv>
+
+
+              </Logodiv>
+              <Textingdiv>
+                  
+                   <Headh5>
+                   Certified and Trusted
+                   </Headh5>
+                   <Parap>
+                    
+                   We take pride in being certified by industry leaders like Mastercard, Visa, and PCI DSS. These certifications serve as a testament to our commitment to maintaining the highest standards of security and compliance in the financial services industry.
+                   </Parap>
+
+                   <Paraextp>
+
+                   Rest assured, when you choose Aster-Pay, you're choosing a platform that prioritizes your security above all else.
+
+                   </Paraextp>
 
 
 

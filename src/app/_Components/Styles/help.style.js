@@ -33,6 +33,12 @@ export const Headerdiv = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: 65px; /* 130% */
+    @media only screen and (max-width: 550px) {
+      font-size: 40px;
+    }
+    @media only screen and (max-width: 450px) {
+      font-size: 32px;
+    }
   }
   .bluehead {
     width: 60%;
@@ -43,6 +49,12 @@ export const Headerdiv = styled.div`
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    @media only screen and (max-width: 450px) {
+      font-size: 22px;
+    }
+    @media only screen and (max-width: 450px) {
+      font-size: 18px;
+    }
   }
 `;
 export const Sectiondiv = styled.div`
