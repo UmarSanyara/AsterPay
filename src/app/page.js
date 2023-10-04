@@ -6,6 +6,8 @@ import Sendmoney from "./_components/sendmoney";
 import Blogs from "./_components/blogs";
 import NavBar from "./_components/NavBar";
 import WelcomePage from "./_components/WelcomePage";
+import Process from "./_components/process";
+import Help from "./_components/help";
 function Page() {
   return (
     <main className={styles.main}>
@@ -13,6 +15,8 @@ function Page() {
       <WelcomePage />
       <Globalreach />
       <Sendmoney />
+      <Process />
+      <Help />
       <Aboutus />
       <Blogs />
       <FAQ />

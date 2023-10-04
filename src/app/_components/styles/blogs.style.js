@@ -32,6 +32,15 @@ export const MoneyIcon = styled.div`
     position: relative;
     top: -120%;
     left: -300%;
+    @media only screen and (max-width: 1100px) {
+      left: -200%;
+    }
+    @media only screen and (max-width: 1000px) {
+      left: -100%;
+    }
+    @media only screen and (max-width: 750px) {
+      left: 00%;
+    }
   }
   .dollar1 {
     position: absolute;
@@ -57,6 +66,13 @@ export const Headerdiv = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    @media only screen and (max-width: 1000px) {
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 750px) {
+      width: 80%;
+      font-size: 16px;
+    }
   }
   .heading {
     width: 741px;
@@ -67,6 +83,13 @@ export const Headerdiv = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: 65px; /* 130% */
+    @media only screen and (max-width: 1000px) {
+      font-size: 40px;
+    }
+    @media only screen and (max-width: 750px) {
+      font-size: 32px;
+      width: 80%;
+    }
   }
   .para {
     width: 712px;
@@ -77,6 +100,13 @@ export const Headerdiv = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    @media only screen and (max-width: 1000px) {
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 750px) {
+      font-size: 16px;
+      width: 80%;
+    }
   }
 `;
 export const Blogsdiv = styled.div`
