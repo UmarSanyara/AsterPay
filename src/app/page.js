@@ -7,7 +7,7 @@ import Security from "./_components/security";
 export default function Home() {
   return (
     <main className={styles.main}>
-     <Important/>
+     
      <Security/>
       
     </main>
