@@ -104,7 +104,7 @@ position: relative;
   height: 30px !important;
 }
 
-}
+} 
 
 `
 
