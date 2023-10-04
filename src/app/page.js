@@ -4,9 +4,13 @@ import Aboutus from "./_components/aboutus";
 import FAQ from "./_components/faq";
 import Sendmoney from "./_components/sendmoney";
 import Blogs from "./_components/blogs";
-export default function Home() {
+import NavBar from "./_components/NavBar";
+import WelcomePage from "./_components/WelcomePage";
+function Page() {
   return (
     <main className={styles.main}>
+      <NavBar />
+      <WelcomePage />
       <Globalreach />
       <Sendmoney />
       <Aboutus />
@@ -15,3 +19,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Page;
