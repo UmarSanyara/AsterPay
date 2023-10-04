@@ -304,11 +304,25 @@ export const Textingdiv = styled.div`
     padding-left: 8px;
   }
 
+<<<<<<< HEAD
   @media (max-width: 999px) and (min-width: 850px) {
     padding-left: 4px;
   }
   @media (max-width: 849px) and (min-width: 750px) {
     padding-left: 4px;
+=======
+  @media (max-width: 999px) and (min-width: 850px){
+    padding-left: 8px;
+    gap: 15px
+  }
+  @media(max-width: 849px) and (min-width: 750px){
+    padding-left: 8px;
+    gap: 15px
+  }
+  @media(max-width: 749px) and (min-width: 390px){
+    padding-left: 8px;
+    gap: 7px
+>>>>>>> 31e28f53f158a0bebd28cfdd7b32f883b2148480
   }
 `;
 

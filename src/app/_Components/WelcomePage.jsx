@@ -20,7 +20,7 @@ import FlagAus from "./../_assets/images/Australia.png";
 const WelcomePage = () => {
   return (
     <>
-      <Main>
+      <Main id="Home">
         <Image className="Clock" src={Clock} alt="clock" />
 
         <InfoPart>

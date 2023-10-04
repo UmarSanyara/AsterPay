@@ -11,7 +11,7 @@ import Help from "./_components/help";
 import Security from "./_components/security";
 import MiddleBar from "./_components/MiddleBar";
 import WhyPage from "./_components/WhyPage";
-
+import ImportantQuestions from "./_components/important";
 function Page() {
   return (
     <main className={styles.main}>
@@ -22,6 +22,7 @@ function Page() {
       <Globalreach />
       <Sendmoney />
       <Process />
+      <ImportantQuestions />
       <Security />
       <Help />
       <Aboutus />

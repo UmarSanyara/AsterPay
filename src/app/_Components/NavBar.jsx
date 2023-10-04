@@ -11,7 +11,7 @@ import {
   ResItems,
   StyledLink,
 } from "./styles/NavBarStyle";
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -29,26 +29,34 @@ const NavBar = () => {
     <Nav>
       <NavRes style={{ display: isNavResOpen ? "block" : "none" }}>
         <ResItems>
-          <h3>Home</h3>
-        </ResItems>
-        <ResItems>
-          <h3>Send Money</h3>
-        </ResItems>
-        <ResItems>
-          <h3>Security</h3>
-        </ResItems>
-        <ResItems>
-          <h3>Support</h3>
-        </ResItems>
-        <ResItems>
-          <Link href="#Aboutus">
-            <StyledLink>
-              <h3>About Us</h3>
-            </StyledLink>
+          <Link to="Home" smooth={true} duration={1500}>
+            <h3>Home</h3>
           </Link>
         </ResItems>
         <ResItems>
-          <h3>Blog</h3>
+          <Link to="Sendmoney" smooth={true} duration={1500}>
+            <h3>Send Money</h3>
+          </Link>
+        </ResItems>
+        <ResItems>
+          <Link to="Security" smooth={true} duration={1500}>
+            <h3>Security</h3>
+          </Link>
+        </ResItems>
+        <ResItems>
+          <Link to="Support" smooth={true} duration={1500}>
+            <h3>Support</h3>
+          </Link>
+        </ResItems>
+        <ResItems>
+          <Link to="Aboutus" smooth={true} duration={1500}>
+            <h3>About Us</h3>
+          </Link>
+        </ResItems>
+        <ResItems>
+          <Link to="Aboutus" smooth={true} duration={1500}>
+            <h3>Blog</h3>
+          </Link>
         </ResItems>
       </NavRes>
 
@@ -61,32 +69,41 @@ const NavBar = () => {
       <Image className="Logo" src={Logo} alt="Logo" />
       <NavItems>
         <Items onClick={() => handleItemClick(0)} isActive={activeItem === 0}>
-          <h3>Home</h3>
+          <Link to="Home" smooth={true} duration={1500}>
+            <h3>Home</h3>
+          </Link>
           <span className={activeItem === 0 ? "active" : ""}></span>
         </Items>
         <Items onClick={() => handleItemClick(1)} isActive={activeItem === 1}>
-          <h3>Send Money</h3>
+          <Link to="Sendmoney" smooth={true} duration={1500}>
+            <h3>Send Money</h3>
+          </Link>
           <span className={activeItem === 1 ? "active" : ""}></span>
         </Items>
         <Items onClick={() => handleItemClick(2)} isActive={activeItem === 2}>
-          <h3>Security</h3>
+          <Link to="Security" smooth={true} duration={1500}>
+            <h3>Security</h3>
+          </Link>
           <span className={activeItem === 2 ? "active" : ""}></span>
         </Items>
         <Items onClick={() => handleItemClick(3)} isActive={activeItem === 3}>
-          <h3>Support</h3>
+          <Link to="Support" smooth={true} duration={1500}>
+            {" "}
+            <h3>Support</h3>
+          </Link>
           <span className={activeItem === 3 ? "active" : ""}></span>
         </Items>
         <Items onClick={() => handleItemClick(4)} isActive={activeItem === 4}>
-          <Link href="#Aboutus">
-            {" "}
-            <StyledLink>
-              <h3>About Us</h3>
-            </StyledLink>{" "}
+          <Link to="Aboutus" smooth={true} duration={1500}>
+            <h3>About Us</h3>
           </Link>
           <span className={activeItem === 4 ? "active" : ""}></span>
         </Items>
         <Items onClick={() => handleItemClick(5)} isActive={activeItem === 5}>
-          <h3>Blog</h3>
+          <Link to="Blogs" smooth={true} duration={1500}>
+            {" "}
+            <h3>Blog</h3>
+          </Link>
           <span className={activeItem === 5 ? "active" : ""}></span>
         </Items>
       </NavItems>

@@ -15,7 +15,7 @@ import Arrow from "../_assets/images/help/arrow.png";
 
 const help = () => {
   return (
-    <Maindiv>
+    <Maindiv id="Support">
       <Image
         src={Clockwatermark}
         width={254}

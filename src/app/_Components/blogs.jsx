@@ -16,7 +16,7 @@ import Studentwithphone from "../_assets/images/blogs/studentswithphone.png";
 
 const blogs = () => {
   return (
-    <Maindiv>
+    <Maindiv id="Blogs">
       <MoneyIcon>
         <div className="icondiv">
           <Image
