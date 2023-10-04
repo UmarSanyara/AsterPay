@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { BarMain, BarInner } from "./styles/MiddleBarStyle";
+import { BarMain, BarInner } from "./styles/BarStyle";
 const MiddleBar = () => {
   return (
     <>

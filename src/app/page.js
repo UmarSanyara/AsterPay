@@ -9,15 +9,16 @@ import WelcomePage from "./_components/WelcomePage";
 import Process from "./_components/process";
 import Help from "./_components/help";
 import Security from "./_components/security";
-import MiddleBar from "./_components/MiddleBar";
 import WhyPage from "./_components/WhyPage";
 import ImportantQuestions from "./_components/important";
+import Bar from "./_components/Bar";
+import Connect from "./_components/connect";
 function Page() {
   return (
     <main className={styles.main}>
       <NavBar />
       <WelcomePage />
-      <MiddleBar />
+      <Bar />
       <WhyPage />
       <Globalreach />
       <Sendmoney />
@@ -25,6 +26,7 @@ function Page() {
       <ImportantQuestions />
       <Security />
       <Help />
+      <Connect />
       <Aboutus />
       <Blogs />
       <FAQ />
