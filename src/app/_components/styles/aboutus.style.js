@@ -172,6 +172,7 @@ export const Button = styled.button`
   font-weight: 500;
   line-height: normal;
   margin-left: 40%;
+  cursor: pointer;
   @media only screen and (max-width: 500px) {
     margin-left: 20%;
   }

@@ -180,5 +180,6 @@ export const Buttondiv = styled.div`
     justify-content: center;
     align-items: center;
     gap: 20.42px;
+    cursor: pointer;
   }
 `;
