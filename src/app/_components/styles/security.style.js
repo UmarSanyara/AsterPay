@@ -401,10 +401,16 @@ export const Textingdiv = styled.div`
   }
 
   @media (max-width: 999px) and (min-width: 850px){
-    padding-left: 4px;
+    padding-left: 8px;
+    gap: 15px
   }
   @media(max-width: 849px) and (min-width: 750px){
-    padding-left: 4px;
+    padding-left: 8px;
+    gap: 15px
+  }
+  @media(max-width: 749px) and (min-width: 390px){
+    padding-left: 8px;
+    gap: 7px
   }
 
 
