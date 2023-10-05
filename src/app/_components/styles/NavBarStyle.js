@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FixNav = styled.div`
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 1000;
 `;
