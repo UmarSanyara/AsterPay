@@ -91,7 +91,7 @@ const Faq = () => {
         </span>
       </Headerdiv>
       <Accordiandiv>
-        {data.map((item, i) => (
+        {data?.map((item, i) => (
           <div className="item" key={i}>
             <div className="title" onClick={() => toggle(i)}>
               <H2>
