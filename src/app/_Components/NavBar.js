@@ -17,25 +17,30 @@ const NavBar = () => {
     setIsNavResOpen(!isNavResOpen);
   };
 
+  const closeNavRes = () => {
+    setIsNavResOpen(false);
+  };
+
   return (
     <Nav>
-      <NavRes style={{ display: isNavResOpen ? "block" : "none" }}>
-        <ResItems>
+
+    <NavRes Open={isNavResOpen}>
+        <ResItems onClick={closeNavRes}>
           <h3>Home</h3>
         </ResItems>
-        <ResItems>
+        <ResItems onClick={closeNavRes}>
           <h3>Send Money</h3>
         </ResItems>
-        <ResItems>
+        <ResItems onClick={closeNavRes}>
           <h3>Security</h3>
         </ResItems>
-        <ResItems>
+        <ResItems onClick={closeNavRes}>
           <h3>Support</h3>
         </ResItems>
-        <ResItems>
+        <ResItems onClick={closeNavRes}>
           <h3>About Us</h3>
         </ResItems>
-        <ResItems>
+        <ResItems onClick={closeNavRes}>
           <h3>Blog</h3>
         </ResItems>
       </NavRes>

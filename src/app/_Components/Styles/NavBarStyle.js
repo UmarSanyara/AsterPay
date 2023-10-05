@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const Nav = styled.div`
 max-width: 1440px;
@@ -214,25 +214,15 @@ left: 3.5%;
 z-index: 999;
 border-radius: 20px;
 overflow: hidden;
-animation: move 1s;
-
-@keyframes move {
-  from{
-    transform : translateY(-100%);
-    opacity: 0;
-  }
-  to
-  {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
+display: ${({ Open }) => (Open ? 'block' : 'none')};
+animation: ${({ Open }) => (Open ? slideIn : slideOut)} 1s !important;
 `
 export const ResItems= styled.div`
 border-bottom: 1px solid #fff;
 cursor: pointer;
 h3
 {
+  font-family: Jost;
   color: #fff;
   margin-top: 30px;
   font-size: 20px;
@@ -247,3 +237,25 @@ h3:hover
   color: yellowgreen;
 }
 `
+
+const slideIn = keyframes`
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
+const slideOut = keyframes`
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+`;
