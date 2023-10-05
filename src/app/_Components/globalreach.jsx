@@ -44,121 +44,121 @@ const globalreach = () => {
       <Countriesdiv>
         <Country>
           <CountryFlag>
-            <Image src={Angola} width={56} height={56} />
+            <Image src={Angola} width={56} height={56} alt="Angola" />
           </CountryFlag>
           <CountryName>Angola</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Botswana} width={56} height={56} />
+            <Image src={Botswana} width={56} height={56} alt="Botswana" />
           </CountryFlag>
           <CountryName>Botswana</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Eswatini} width={56} height={56} />
+            <Image src={Eswatini} width={56} height={56} alt="Eswatini" />
           </CountryFlag>
           <CountryName>Eswatini</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Lesotho} width={56} height={56} />
+            <Image src={Lesotho} width={56} height={56} alt="Lesotho" />
           </CountryFlag>
           <CountryName>Lesotho</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Mozambique} width={56} height={56} />
+            <Image src={Mozambique} width={56} height={56} alt="Mozambique" />
           </CountryFlag>
           <CountryName>Mozambique</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Namibia} width={56} height={56} />
+            <Image src={Namibia} width={56} height={56} alt="Namibia" />
           </CountryFlag>
           <CountryName>Namibia</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={SouthAfrica} width={56} height={56} />
+            <Image src={SouthAfrica} width={56} height={56} alt="SouthAfrica" />
           </CountryFlag>
           <CountryName>South Africa</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Zambia} width={56} height={56} />
+            <Image src={Zambia} width={56} height={56} alt="Zambia" />
           </CountryFlag>
           <CountryName>Zambia</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Zimbabve} width={56} height={56} />
+            <Image src={Zimbabve} width={56} height={56} alt="Zimbabve" />
           </CountryFlag>
           <CountryName>Zimbabve</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Kenya} width={56} height={56} />
+            <Image src={Kenya} width={56} height={56} alt="Kenya" />
           </CountryFlag>
           <CountryName>Kenya</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Nigeria} width={56} height={56} />
+            <Image src={Nigeria} width={56} height={56} alt="Nigeria" />
           </CountryFlag>
           <CountryName>Nigeria</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Ghana} width={56} height={56} />
+            <Image src={Ghana} width={56} height={56} alt="Ghana" />
           </CountryFlag>
           <CountryName>Ghana</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Canada} width={56} height={56} />
+            <Image src={Canada} width={56} height={56} alt="Canada" />
           </CountryFlag>
           <CountryName>Canada</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={China} width={56} height={56} />
+            <Image src={China} width={56} height={56} alt="China" />
           </CountryFlag>
           <CountryName>China</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={England} width={56} height={56} />
+            <Image src={England} width={56} height={56} alt="England" />
           </CountryFlag>
           <CountryName>England</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={France} width={56} height={56} />
+            <Image src={France} width={56} height={56} alt="France" />
           </CountryFlag>
           <CountryName>France</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Germany} width={56} height={56} />
+            <Image src={Germany} width={56} height={56} alt="Germany" />
           </CountryFlag>
           <CountryName>Germany</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Italy} width={56} height={56} />
+            <Image src={Italy} width={56} height={56} alt="Italy" />
           </CountryFlag>
           <CountryName>Italy</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Spain} width={56} height={56} />
+            <Image src={Spain} width={56} height={56} alt="Spain" />
           </CountryFlag>
           <CountryName>Spain</CountryName>
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Usa} width={56} height={56} />
+            <Image src={Usa} width={56} height={56} alt="Usa" />
           </CountryFlag>
           <CountryName>USA</CountryName>
         </Country>

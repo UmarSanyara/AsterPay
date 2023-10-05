@@ -7,8 +7,11 @@ export const Maindiv = styled.div`
   padding-top: 130px;
   .watermark {
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 0%;
+    @media only screen and (max-width: 900px) {
+      display: none;
+    }
   }
 `;
 export const Headerdiv = styled.div`
@@ -76,6 +79,10 @@ export const Sectionsdiv = styled.div`
   padding-bottom: 59px;
   padding-right: 79px;
   padding-left: 79px;
+  @media only screen and (max-width: 500px) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 `;
 export const Section = styled.div`
   width: 626px;
@@ -88,11 +95,12 @@ export const Section = styled.div`
   gap: 20px;
   padding-right: 22px;
   @media only screen and (max-width: 600px) {
-    width: 486px;
+    width: 90%;
     height: auto;
+    justify-content: center;
+    padding-right: 0%;
   }
   @media only screen and (max-width: 390px) {
-    width: 286px;
     height: auto;
   }
   .vision {
@@ -101,33 +109,9 @@ export const Section = styled.div`
     display: flex;
     justify-content: center;
   }
-  .journey {
-    width: 390px;
-    height: 80px;
-    background-color: rgba(225, 228, 255, 0.5);
-    margin-top: 25px;
-    margin-left: 22px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .beapart {
-    width: 260px;
-    height: 80px;
-    background-color: rgba(255, 241, 215, 0.5);
-    margin-top: 25px;
-    margin-left: 22px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 `;
 export const Imagediv = styled.div`
-  width: 390px;
   height: 80px;
-  background-color: rgba(255, 229, 233, 0.5);
   margin-top: 25px;
   margin-left: 22px;
   border-radius: 50%;

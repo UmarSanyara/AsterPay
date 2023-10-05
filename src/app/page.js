@@ -13,6 +13,7 @@ import WhyPage from "./_components/WhyPage";
 import ImportantQuestions from "./_components/important";
 import Bar from "./_components/Bar";
 import Connect from "./_components/connect";
+import Footer from "./_components/Footer";
 function Page() {
   return (
     <main className={styles.main}>
@@ -30,6 +31,7 @@ function Page() {
       <Aboutus />
       <Blogs />
       <FAQ />
+      <Footer />
     </main>
   );
 }

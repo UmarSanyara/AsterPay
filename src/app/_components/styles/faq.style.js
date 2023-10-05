@@ -5,6 +5,7 @@ export const Maindiv = styled.div`
   flex-direction: column;
   gap: 73px;
   padding-top: 149px;
+  padding-bottom: 139px;
   position: relative;
   @media only screen and (max-width: 500px) {
     padding-top: 180px;

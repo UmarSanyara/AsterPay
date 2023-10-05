@@ -57,14 +57,20 @@ const blogs = () => {
       </Headerdiv>
       <Blogsdiv>
         <Blog>
-          <Image src={GirlsShot} width={407} height={215} alt="GirlsShot" />
+          <Image
+            src={GirlsShot}
+            width={407}
+            height={215}
+            alt="GirlsShot"
+            className="blogimage"
+          />
           <span className="bluetext">By Malakia Matias - 10 Sep 2023</span>
           <h1 className="headingtext">
             Lorem Ipsum is simply dummy text of the printing.
           </h1>
           <span className="paratext">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy.
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy.
           </span>
         </Blog>
         <Blog>
@@ -73,6 +79,7 @@ const blogs = () => {
             width={407}
             height={215}
             alt="Studentstudying"
+            className="blogimage"
           />
           <span className="bluetext">By Malakia Matias - 10 Sep 2023</span>
           <h1 className="headingtext">
@@ -80,7 +87,7 @@ const blogs = () => {
           </h1>
           <span className="paratext">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy.
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy.
           </span>
         </Blog>
         <Blog>
@@ -89,6 +96,7 @@ const blogs = () => {
             width={407}
             height={215}
             alt="Studentwithphone"
+            className="blogimage"
           />
           <span className="bluetext">By Malakia Matias - 10 Sep 2023</span>
           <h1 className="headingtext">
@@ -96,7 +104,7 @@ const blogs = () => {
           </h1>
           <span className="paratext">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy.
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy.
           </span>
         </Blog>
       </Blogsdiv>

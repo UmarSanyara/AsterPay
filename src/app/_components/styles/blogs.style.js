@@ -126,6 +126,9 @@ export const Blog = styled.div`
   box-shadow: 0px 0px 10px 0px rgba(13, 27, 62, 0.1);
   display: flex;
   flex-direction: column;
+  @media only screen and (max-width: 500px) {
+    width: 80%;
+  }
   .bluetext {
     color: #4743c9;
     font-family: "Jost";
@@ -156,5 +159,10 @@ export const Blog = styled.div`
     padding-left: 21px;
     padding-top: 19px;
     width: 95%;
+  }
+  .blogimage {
+    @media only screen and (max-width: 500px) {
+      width: 100%;
+    }
   }
 `;

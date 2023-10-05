@@ -22,6 +22,7 @@ const process = () => {
         width={254}
         height={223}
         className="watermark"
+        alt="watermark"
       />
       <Headerdiv>
         <span className="bluehead">How It Works?</span>
@@ -31,7 +32,13 @@ const process = () => {
         <Section>
           <Icondiv>
             <span className="number">01</span>
-            <Image src={Sign} width={128} height={128} className="image" />
+            <Image
+              src={Sign}
+              width={128}
+              height={128}
+              className="image"
+              alt="Sign"
+            />
           </Icondiv>
           <span className="sectionhead">Link Your Cards</span>
           <span className="sectionpara">
@@ -42,7 +49,13 @@ const process = () => {
         <Section>
           <Icondiv>
             <span className="number">02</span>
-            <Image src={Reciept} width={128} height={128} className="image" />
+            <Image
+              src={Reciept}
+              width={128}
+              height={128}
+              className="image"
+              alt="Reciept"
+            />
           </Icondiv>
           <span className="sectionhead">Add Recipient</span>
           <span className="sectionpara">
@@ -54,7 +67,13 @@ const process = () => {
         <Section>
           <Icondiv>
             <span className="number">03</span>
-            <Image src={Payment} width={128} height={128} className="image" />
+            <Image
+              src={Payment}
+              width={128}
+              height={128}
+              className="image"
+              alt="Payment"
+            />
           </Icondiv>
           <span className="sectionhead">Confirm Payment</span>
           <span className="sectionpara">
@@ -66,7 +85,13 @@ const process = () => {
         <Section>
           <Icondiv>
             <span className="number">04</span>
-            <Image src={Send} width={128} height={128} className="image" />
+            <Image
+              src={Send}
+              width={128}
+              height={128}
+              className="image"
+              alt="Send"
+            />
           </Icondiv>
           <span className="sectionhead">Send</span>
           <span className="sectionpara">

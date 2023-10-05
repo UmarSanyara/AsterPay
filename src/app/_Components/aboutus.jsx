@@ -23,6 +23,7 @@ const aboutus = () => {
         width={254}
         height={223}
         className="watermark"
+        alt="watermark"
       />
       <Headerdiv>
         <span className="tag">About Us</span>
@@ -35,7 +36,7 @@ const aboutus = () => {
       <Sectionsdiv>
         <Section>
           <Imagediv>
-            <Image src={Empowering} width={42} height={42} />
+            <Image src={Empowering} width={42} height={42} alt="Empowering" />
           </Imagediv>
           <Sectiondetail>
             <h1 className="detailheading">Empowering Financial Freedom</h1>
@@ -49,9 +50,9 @@ const aboutus = () => {
           </Sectiondetail>
         </Section>
         <Section>
-          <div className="vision">
-            <Image src={Vision} width={80} height={80} />
-          </div>
+          <Imagediv>
+            <Image src={Vision} width={42} height={42} alt="Vision" />
+          </Imagediv>
           <Sectiondetail>
             <h1 className="detailheading">Our Vision and Mission</h1>
             <p className="detailpara">
@@ -66,24 +67,24 @@ const aboutus = () => {
           </Sectiondetail>
         </Section>
         <Section>
-          <div className="journey">
-            <Image src={Journey} width={42} height={42} />
-          </div>
+          <Imagediv>
+            <Image src={Journey} width={42} height={42} alt="Journey" />
+          </Imagediv>
           <Sectiondetail>
             <h1 className="detailheading">Our Journey</h1>
             <p className="detailpara">
-              Aster-Pay's journey began with a vision to reshape the financial
-              landscape of Africa. Established in 2022, we have steadily grown,
-              driven by our unwavering commitment to financial empowerment. Our
-              history is marked by innovation, resilience, and a dedication to
-              providing accessible financial services.
+              Aster-Pay&apos;s journey began with a vision to reshape the
+              financial landscape of Africa. Established in 2022, we have
+              steadily grown, driven by our unwavering commitment to financial
+              empowerment. Our history is marked by innovation, resilience, and
+              a dedication to providing accessible financial services.
             </p>
           </Sectiondetail>
         </Section>
         <Section>
-          <div className="beapart">
-            <Image src={BeaPart} width={42} height={42} />
-          </div>
+          <Imagediv>
+            <Image src={BeaPart} width={42} height={42} alt="Be a Part" />
+          </Imagediv>
           <Sectiondetail>
             <h1 className="detailheading">Be a Part of Our Vision</h1>
             <p className="detailpara">

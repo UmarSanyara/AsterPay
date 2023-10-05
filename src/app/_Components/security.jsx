@@ -37,14 +37,14 @@ const security = () => {
             <Headingh4>Your Security, Our Top Priority</Headingh4>
 
             <Detailp>
-              Discover the advanced measures we've put in place to ensure your
-              financial transactions with Aster-Pay are always completely safe
-              and secure.
+              Discover the advanced measures we&apos;ve put in place to ensure
+              your financial transactions with Aster-Pay are always completely
+              safe and secure.
             </Detailp>
           </Textdiv>
 
           <Imagediv>
-            <Image className="SecuityBanSize" src={Security} />
+            <Image className="SecuityBanSize" src={Security} alt="Security" />
           </Imagediv>
         </Prioritydiv>
 
@@ -52,7 +52,7 @@ const security = () => {
           <Featuresdiv>
             <Logodiv>
               <LogoImgdiv className="F">
-                <Image class="Financial" src={Financial} />
+                <Image class="Financial" src={Financial} alt="Financial" />
               </LogoImgdiv>
             </Logodiv>
             <Textingdiv>
@@ -69,15 +69,15 @@ const security = () => {
           <Featuresdiv>
             <Logodiv>
               <LogoImgdiv className="Thr">
-                <Image class="ThreeD" src={ThreeD} />
+                <Image class="ThreeD" src={ThreeD} alt="3D" />
               </LogoImgdiv>
             </Logodiv>
             <Textingdiv>
               <Headh5>3D Secure for Extra Protection</Headh5>
               <Parap>
-                We've implemented 3D Secure, an additional layer of security
-                that provides an extra level of authentication for online
-                payments. This means that only you, the cardholder, can
+                We&apos;ve implemented 3D Secure, an additional layer of
+                security that provides an extra level of authentication for
+                online payments. This means that only you, the cardholder, can
                 authorize the transaction, offering enhanced protection against
                 unauthorized use of your card.
               </Parap>
@@ -87,7 +87,7 @@ const security = () => {
           <Featuresdiv>
             <Logodiv>
               <LogoImgdiv className="Bio">
-                <Image class="Biometric" src={Biometric} />
+                <Image class="Biometric" src={Biometric} alt="Biometric" />
               </LogoImgdiv>
             </Logodiv>
             <Textingdiv>
@@ -105,7 +105,7 @@ const security = () => {
           <Featuresdiv>
             <Logodiv>
               <LogoImgdiv className="Fra">
-                <Image class="Fraud" src={Fraud} />
+                <Image class="Fraud" src={Fraud} alt="Fraud" />
               </LogoImgdiv>
             </Logodiv>
             <Textingdiv>
@@ -123,7 +123,7 @@ const security = () => {
           <Featuresdiv>
             <Logodiv>
               <LogoImgdiv className="Cer">
-                <Image class="Certified" src={Certified} />
+                <Image class="Certified" src={Certified} alt="Certified" />
               </LogoImgdiv>
             </Logodiv>
             <Textingdiv>
@@ -136,7 +136,7 @@ const security = () => {
               </Parap>
 
               <Paraextp>
-                Rest assured, when you choose Aster-Pay, you're choosing a
+                Rest assured, when you choose Aster-Pay, you&apos;re choosing a
                 platform that prioritizes your security above all else.
               </Paraextp>
             </Textingdiv>

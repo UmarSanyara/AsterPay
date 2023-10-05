@@ -13,12 +13,18 @@ const connect = () => {
         <span className="headtext">Connect with Our Support Bot</span>
         <span className="headpara">
           Get instant answers to common queries and access quick support through
-          our WhatsApp Bot. It's an automated conversation that's available 24/7
-          for your convenience.
+          our WhatsApp Bot. It&apos;s an automated conversation that&apos;s
+          available 24/7 for your convenience.
         </span>
         <button className="button">
           Start Conversation{"    "}
-          <Image src={Arrow} width={17.5} height={12} className="arrow" />
+          <Image
+            src={Arrow}
+            width={17.5}
+            height={12}
+            className="arrow"
+            alt="arrow"
+          />
         </button>
       </Headingdiv>
       <Imagediv>

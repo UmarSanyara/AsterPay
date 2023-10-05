@@ -21,9 +21,10 @@ const help = () => {
         width={254}
         height={223}
         className="watermark"
+        alt="watermark"
       />
       <Headerdiv>
-        <h1 className="blackhead">We're Here to Help</h1>
+        <h1 className="blackhead">We&apos;re Here to Help</h1>
         <span className="bluehead">
           Reach out to us through various channels for assistance and explore
           our comprehensive FAQ section for quick answers.
@@ -50,8 +51,8 @@ const help = () => {
           <span className="headtext">Leave Us a Message</span>
           <span className="paratext">
             Have a question or need assistance? Our support team is just a
-            message away. Fill out the form below, and we'll get back to you
-            promptly.
+            message away. Fill out the form below, and we&apos;ll get back to
+            you promptly.
           </span>
           <Inputdiv>
             <input

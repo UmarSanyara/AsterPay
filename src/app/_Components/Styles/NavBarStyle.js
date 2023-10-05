@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const FixNav = styled.div`
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+`;
 export const Nav = styled.div`
   max-width: 1440px;
   min-height: 107px;

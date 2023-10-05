@@ -58,7 +58,7 @@ const data = [
       "Dedicated resources refer to a hosting service that provides exclusive and dedicated hardware and infrastructure for your website or application. This means you have full control over the resources and can optimize them according to your specific needs.",
   },
 ];
-const faq = () => {
+const Faq = () => {
   const [selected, setSelected] = useState(null);
 
   const toggle = (i) => {
@@ -69,12 +69,19 @@ const faq = () => {
   };
   return (
     <Maindiv>
-      <Image src={Greencards} width={149} height={129} className="greencards" />
+      <Image
+        src={Greencards}
+        width={149}
+        height={129}
+        className="greencards"
+        alt="Greencards"
+      />
       <Image
         src={Clockwatermark}
         width={213}
         height={188}
         className="clockwatermark"
+        alt="Watermark"
       />
       <Headerdiv>
         <span className="header">Find Answers to Your Questions</span>
@@ -85,7 +92,7 @@ const faq = () => {
       </Headerdiv>
       <Accordiandiv>
         {data.map((item, i) => (
-          <div className="item">
+          <div className="item" key={i}>
             <div className="title" onClick={() => toggle(i)}>
               <H2>
                 <div className={selected == i ? "heading" : "elseheading"}>
@@ -107,7 +114,8 @@ const faq = () => {
         ))}
         <Buttondiv>
           <button className="button">
-            Explore FAQ <Image src={Arrow} width={44.77} height={44.77} />
+            Explore FAQ{" "}
+            <Image src={Arrow} width={44.77} height={44.77} alt="Arrow" />
           </button>
         </Buttondiv>
       </Accordiandiv>
@@ -115,4 +123,4 @@ const faq = () => {
   );
 };
 
-export default faq;
+export default Faq;

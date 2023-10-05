@@ -22,19 +22,23 @@ const Sendmoney = () => {
       <Backgrounddiv></Backgrounddiv>
       <Senddiv>
         <Imagediv>
-          <Image src={SendMoney} className="sendpic" />
+          <Image src={SendMoney} className="sendpic" alt="Send Money" />
         </Imagediv>
 
         <OnlineMoneydiv>
           <MoneyPicdiv>
-            <Image className="dollarsimage" src={DollarsImage} />
+            <Image
+              className="dollarsimage"
+              src={DollarsImage}
+              alt="Dollers Image"
+            />
           </MoneyPicdiv>
 
           <Contentdiv>
             <Texth4>Send Money Online - Hassle-Free and Secure</Texth4>
             <Detailp>
               Effortlessly transfer funds to your loved ones worldwide with
-              Aster-Pay's user-friendly process.
+              Aster-Pay&apos;s user-friendly process.
             </Detailp>
           </Contentdiv>
         </OnlineMoneydiv>
