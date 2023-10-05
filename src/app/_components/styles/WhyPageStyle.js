@@ -22,14 +22,13 @@ export const Main = styled.div`
     font-size: 20px;
     font-weight: 400;
   }
-  @media (max-width: 589px)
-  {
+  @media (max-width: 589px) {
     h1 {
-    color: var(--Blue, #0d1b3e);
-    font-family: Jost;
-    font-size: 40px;
-    padding-bottom: 21px;
-  }
+      color: var(--Blue, #0d1b3e);
+      font-family: Jost;
+      font-size: 40px;
+      padding-bottom: 21px;
+    }
   }
 `;
 export const Inner = styled.div`
@@ -42,13 +41,11 @@ export const Inner = styled.div`
     flex-direction: column !important;
     height: 1500px;
   }
-  @media (max-width: 693px)and (min-width: 589px)
-  {
+  @media (max-width: 693px) and (min-width: 589px) {
     height: 911px;
   }
 
-  @media (max-width: 589px)
-  {
+  @media (max-width: 589px) {
     height: 1500px;
   }
 `;
@@ -70,7 +67,7 @@ export const ImageSec = styled.div`
   }
   .Money {
     position: absolute;
-    z-index: 0;
+    z-index: 10;
     top: 600px;
     left: 600px;
   }
@@ -156,8 +153,7 @@ export const BoxSec = styled.div`
     justify-content: center;
   }
 
-  @media (max-width: 589px)
-  {
+  @media (max-width: 589px) {
     justify-content: center;
     flex-direction: column;
   }

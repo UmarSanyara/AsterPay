@@ -79,6 +79,14 @@ export const Sectionsdiv = styled.div`
   padding-bottom: 59px;
   padding-right: 79px;
   padding-left: 79px;
+  @media only screen and (max-width: 1400px) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  @media only screen and (max-width: 1330px) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   @media only screen and (max-width: 500px) {
     padding-right: 0px;
     padding-left: 0px;
