@@ -378,17 +378,116 @@ span
     font-weight: 600;
  }
 
- .country
- {
-    width: 151px;
-    height: 53px;
-    border-radius: 10px;
-    background: #FFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
- }
+ .country {
+  width: 151px;
+  height: 53px;
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+
+  .Arrow
+  {
+    cursor: pointer;
+  }
+}
+
+.dropdown {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #EDEFFF;
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  animation: move 1s;
+}
+.Menu
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 35px;
+  cursor: pointer;
+}
+.Menu:hover
+{
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+
+.countrySec {
+  width: 151px;
+  height: 53px;
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+
+  .Arrow
+  {
+    cursor: pointer;
+  }
+}
+
+.dropdownSec {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #EDEFFF;
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  animation: move 1s;
+}
+.MenuSec
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 35px;
+  cursor: pointer;
+}
+.MenuSec:hover
+{
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+@keyframes move {
+  from{
+    transform : translateY(-100%);
+    opacity: 0;
+  }
+  to
+  {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
  @media (max-width: 1024px) and  (min-width: 616px)
   {
     width: 467px !important;
