@@ -8,7 +8,7 @@ import {
   FooterData,
   Dets,
   DetsLast,
-} from "./Styles/FooterStyle";
+} from "./styles/FooterStyle";
 import Image from "next/image";
 import Left from "./../_assets/images/FooterLeft.png";
 import Right from "./../_assets/images/FooterRight.png";
