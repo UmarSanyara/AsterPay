@@ -43,9 +43,9 @@ const WelcomePage = () => {
             Your Cross-Border Money <br /> Transfer Solution
           </h1>
           <p>
-            At Aster-Pay, we've simplified international money transfers.
-            Whether you're <br /> supporting family members abroad or need to
-            send funds for any reason, Aster- <br />
+            At Aster-Pay, we&apos;ve simplified international money transfers.
+            Whether you&apos;re <br /> supporting family members abroad or need
+            to send funds for any reason, Aster- <br />
             Pay is your trusted partner. Experience the future of peer-to-peer
             money transfer <br /> by downloading our app now.
           </p>
