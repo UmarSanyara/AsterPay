@@ -89,6 +89,7 @@ export const Headerdiv = styled.div`
     @media only screen and (max-width: 750px) {
       font-size: 32px;
       width: 80%;
+      line-height: normal;
     }
   }
   .para {
@@ -159,6 +160,7 @@ export const Blog = styled.div`
     padding-left: 21px;
     padding-top: 19px;
     width: 95%;
+    padding-bottom: 15px;
   }
   .blogimage {
     @media only screen and (max-width: 500px) {

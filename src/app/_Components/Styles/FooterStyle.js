@@ -48,6 +48,9 @@ export const Inner = styled.div`
   position: relative;
   padding: 29px 0px 0px 56px;
   z-index: 0;
+  @media only screen and (max-width: 462px) {
+    height: 80%;
+  }
   .Left {
     position: absolute;
     left: 0;
@@ -210,7 +213,7 @@ export const Dets = styled.div`
       .Media {
         cursor: pointer;
         width: 15px;
-        height: 13px !important;
+        height: 15px !important;
       }
     }
   }

@@ -17,9 +17,9 @@ export const Maindiv = styled.div`
   @media only screen and (max-width: 1150px) {
     flex-direction: column;
     height: auto;
-    width: 60%;
+    width: 80%;
     border-radius: 25px;
-    margin-left: 20%;
+    margin-left: 10%;
     padding-right: 5%;
     padding-left: 5%;
   }

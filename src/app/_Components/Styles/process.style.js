@@ -39,6 +39,12 @@ export const Headerdiv = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: 65px; /* 130% */
+    @media only screen and (max-width: 476px) {
+      font-size: 40px;
+    }
+    @media only screen and (max-width: 426px) {
+      font-size: 32px;
+    }
   }
 `;
 export const Sectionsdiv = styled.div`
@@ -46,7 +52,32 @@ export const Sectionsdiv = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
+  position: relative;
   gap: 84px;
+  .arrow1 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    @media only screen and (max-width: 1279px) {
+      display: none;
+    }
+  }
+  .arrow2 {
+    position: absolute;
+    top: 25%;
+    transform: scaleY(-1);
+    @media only screen and (max-width: 1279px) {
+      display: none;
+    }
+  }
+  .arrow3 {
+    position: absolute;
+    top: 25%;
+    right: 19%;
+    @media only screen and (max-width: 1279px) {
+      display: none;
+    }
+  }
 `;
 export const Section = styled.div`
   width: 257px;

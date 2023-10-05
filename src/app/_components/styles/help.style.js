@@ -98,7 +98,7 @@ export const Sectionbox = styled.div`
     line-height: normal;
     padding-top: 37px;
     @media only screen and (max-width: 450px) {
-      font-size: 32px;
+      font-size: 28px;
     }
   }
   .paratext {

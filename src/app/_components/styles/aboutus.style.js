@@ -139,6 +139,9 @@ export const Sectiondetail = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    @media only screen and (max-width: 470px) {
+      font-size: 24px;
+    }
   }
   .detailpara {
     color: var(--Blue, #0d1b3e);
@@ -147,6 +150,9 @@ export const Sectiondetail = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 127.778% */
+    @media only screen and (max-width: 470px) {
+      font-size: 16px;
+    }
   }
 `;
 export const Button = styled.button`
@@ -166,6 +172,8 @@ export const Button = styled.button`
   margin-left: 40%;
   cursor: pointer;
   @media only screen and (max-width: 500px) {
+    width: 250px;
+    font-size: 16px;
     margin-left: 20%;
   }
 `;

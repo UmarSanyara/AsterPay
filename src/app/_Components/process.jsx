@@ -13,6 +13,7 @@ import Payment from "../_assets/images/process/payment.png";
 import Sign from "../_assets/images/process/sign.png";
 import Reciept from "../_assets/images/process/reciept.png";
 import Send from "../_assets/images/process/send.png";
+import Arrow from "../_assets/images/process/arrow.png";
 
 const process = () => {
   return (
@@ -46,6 +47,13 @@ const process = () => {
             account. We accept a wide range of cards for your convenience.
           </span>
         </Section>
+        <Image
+          src={Arrow}
+          width={128.5}
+          height={16.3}
+          alt="arrow"
+          className="arrow1"
+        />
         <Section>
           <Icondiv>
             <span className="number">02</span>
@@ -64,6 +72,13 @@ const process = () => {
             anyone, anywhere.
           </span>
         </Section>
+        <Image
+          src={Arrow}
+          width={128.5}
+          height={16.3}
+          alt="arrow"
+          className="arrow2"
+        />
         <Section>
           <Icondiv>
             <span className="number">03</span>
@@ -82,6 +97,13 @@ const process = () => {
             the way.
           </span>
         </Section>
+        <Image
+          src={Arrow}
+          width={128.5}
+          height={16.3}
+          alt="arrow"
+          className="arrow3"
+        />
         <Section>
           <Icondiv>
             <span className="number">04</span>
