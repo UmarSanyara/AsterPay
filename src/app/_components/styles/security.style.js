@@ -22,7 +22,7 @@ export const Maindiv = styled.div`
     padding-right: 20px; 
   }
 
-  @media(max-width: 425px) and (min-width: 390px){
+  @media(max-width: 425px) {
     padding-right: 10px;
     padding-left : 10px ;
   }
@@ -50,7 +50,7 @@ export const Contentdiv = styled.div`
     padding-top: 70px;
   }
 
-  @media(max-width: 425px) and (min-width: 390px){
+  @media(max-width: 425px) {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -116,7 +116,7 @@ export const Textdiv = styled.div`
 
      }
 
-     @media(max-width: 425px) and (min-width: 390px){
+     @media(max-width: 425px) {
 
      display: flex;
      flex-direction: column;
@@ -175,7 +175,7 @@ export const Headingh4 = styled.h4`
   padding-right: 25px;
   }
 
-  @media(max-width: 425px) and (min-width: 390px){
+  @media(max-width: 425px) {
 
     font-size: 30px;
   font-style: normal;
@@ -235,7 +235,7 @@ export const Detailp = styled.p`
   line-height: normal;
   }
 
-  @media(max-width: 425px) and (min-width: 390px){
+  @media(max-width: 425px) {
     font-size: 11px;
   font-style: normal;
   font-weight: 500;
@@ -310,7 +310,7 @@ height: 398px;
 
 }
 
-@media(max-width: 425px) and (min-width: 390px){
+@media(max-width: 425px) {
 
     display: flex;
     justify-content: center;
@@ -408,7 +408,7 @@ export const Textingdiv = styled.div`
     padding-left: 8px;
     gap: 15px
   }
-  @media(max-width: 749px) and (min-width: 390px){
+  @media(max-width: 749px) {
     padding-left: 8px;
     gap: 7px
   }
@@ -509,7 +509,7 @@ height: 31px;
    }
 
 
-   @media(max-width: 425px) and (min-width: 390px){
+   @media(max-width: 425px) {
 
 
 width: 40px;
@@ -640,7 +640,7 @@ line-height: normal;
 
 }
 
-@media(max-width: 425px) and (min-width: 390px){
+@media(max-width: 425px) {
     font-size: 17px;
 font-style: normal;
 font-weight: 600;
@@ -701,7 +701,7 @@ font-weight: 400;
 line-height: 18px;
 }
 
-@media(max-width: 425px) and (min-width: 390px){
+@media(max-width: 425px) {
     padding-top: 5px;
 font-size: 12px;
 font-style: normal;
@@ -761,7 +761,7 @@ font-weight: 400;
 line-height: 18px;
 }
 
-@media(max-width: 425px) and (min-width: 390px){
+@media(max-width: 425px) {
     padding-top: 5px;
 font-size: 12px;
 font-style: normal;

@@ -82,7 +82,7 @@ export const Backgrounddiv = styled.div`
     margin-top: 0px;
 }
 
-@media (max-width: 425px) and (min-width: 390px){
+@media (max-width: 425px) {
     background: rgba(242, 243, 249, 0.50);
     width: 100%;
     height: 650px;
@@ -181,7 +181,7 @@ display: flex;
      align-items: center;
 }
 
-@media (max-width: 425px) and (min-width: 390px){
+@media (max-width: 425px) {
 
 padding-left: 0px;
 padding-right: 0px;
@@ -273,7 +273,7 @@ height: 350px;
 }
 
 
-@media (max-width: 599px) and (min-width: 390px){
+@media (max-width: 599px) {
     padding-top: 20px;
    
 .sendpic{
@@ -341,7 +341,7 @@ height: 106px;
 
 }
 
-@media (max-width: 599px) and (min-width: 390px){
+@media (max-width: 599px) {
 
 .dollarsimage{
 float: right;
@@ -395,7 +395,7 @@ export const Contentdiv = styled.div`
     text-align: center;
       }
 
-      @media (max-width: 425px) and (min-width: 390px){
+      @media (max-width: 425px) {
 
 padding-top: 7.54px;
 padding-left: 20px;
@@ -541,7 +541,7 @@ line-height: 28px;
 }
 
 
-@media (max-width: 599px) and (min-width: 390px){
+@media (max-width: 599px) {
   
  
     font-size: 28px;
@@ -708,7 +708,7 @@ line-height: normal;
 
 
 }
-@media (max-width: 599px) and (min-width: 390px){
+@media (max-width: 599px) {
 
     padding-top: 13px;
     color: #4743C9;
