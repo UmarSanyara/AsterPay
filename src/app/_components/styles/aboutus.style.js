@@ -153,7 +153,7 @@ export const Sectiondetail = styled.div`
 
     @media only screen and (max-width: 650px) {
       font-size: 16px;
-      padding-bottom: 15px;
+      padding-bottom: 25px;
       padding-right: 15px;
     }
     @media only screen and (max-width: 470px) {

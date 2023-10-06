@@ -92,9 +92,5 @@ export const CountryFlag = styled.div`
   .flag {
     width: 56px;
     height: 56px;
-    @media only screen and (max-width: 450px) {
-      width: 40px;
-      height: 40px;
-    }
   }
 `;

@@ -9,7 +9,7 @@ export const Main = styled.div`
   overflow: hidden;
   h1 {
     color: var(--Blue, #0d1b3e);
-    font-family: Jost;
+    font-family: "Jost";
     font-size: 50px;
     font-weight: 600;
     line-height: 65px;
@@ -18,7 +18,7 @@ export const Main = styled.div`
 
   span {
     color: var(--purple, #4743c9);
-    font-family: Jost;
+    font-family: "Jost";
     font-size: 20px;
     font-weight: 400;
   }
@@ -175,17 +175,21 @@ export const Box = styled.div`
     flex-direction: column;
 
     h3 {
-      color: var(--13-27-62-Aster-pay, #0d1b3e);
-      font-family: Jost;
+      color: #0d1b3e;
+      font-family: "Jost";
       font-size: 30px;
       font-weight: 600;
+      @media only screen and (max-width: 550px) {
+        padding-top: 5px;
+        font-size: 28px;
+      }
     }
   }
   p {
     text-align: left;
     padding-top: 18px;
     color: var(--Blue, #0d1b3e);
-    font-family: Jost;
+    font-family: "Jost";
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 23px;

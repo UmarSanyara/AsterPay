@@ -158,7 +158,13 @@ const globalreach = () => {
         </Country>
         <Country>
           <CountryFlag>
-            <Image src={Usa} alt="Usa" className="flag" />
+            <Image
+              src={Usa}
+              alt="Usa"
+              className="flag"
+              width={56}
+              height={56}
+            />
           </CountryFlag>
           <CountryName>USA</CountryName>
         </Country>
