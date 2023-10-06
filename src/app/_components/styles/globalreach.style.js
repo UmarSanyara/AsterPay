@@ -88,9 +88,4 @@ export const CountryName = styled.span`
     font-size: 20px;
   }
 `;
-export const CountryFlag = styled.div`
-  .flag {
-    width: 56px;
-    height: 56px;
-  }
-`;
+export const CountryFlag = styled.div``;

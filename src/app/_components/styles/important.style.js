@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Maindiv = styled.div`
-
+      margin-top: 130px;
       padding-left: 63px;
       padding-right: 63px;
 
@@ -13,23 +13,27 @@ export const Maindiv = styled.div`
       @media (max-width: 1364px) and (min-width: 1284px){
       padding-left: 70px;
       padding-right: 70px;
+      margin-top: 90px;
       }
 
       @media (max-width: 1287px) and (min-width: 1200px){
       padding-left: 35px;
       padding-right: 35px;
+      margin-top: 70px;
       }
 
       @media (max-width: 1199px) and (min-width: 1000px){
       padding-left: 30px;
       padding-right: 30px;
+      margin-top: 70px;
       }
       @media (max-width: 999px) and (min-width: 800px){
       padding-left: 25px;
       padding-right: 25px;
+      margin-top: 70px;
       }
 
-      @media (max-width: 799px) and (min-width: 726px){
+      @media (max-width: 799px) and (min-width: 730px){
       padding-left: 20px;
       padding-right: 20px;
       }
@@ -37,13 +41,24 @@ export const Maindiv = styled.div`
       @media (max-width: 425px) {
       padding-left: 30px;
       padding-right: 30px;
+      margin-top: 720px;
       }
 
-      @media (max-width: 725px) and (min-width: 426px){
+      @media (max-width: 679px) and (min-width: 426px){
       padding-left: 40px;
       padding-right: 40px;
+      margin-top: 670px;
       }
 
+     
+
+      @media (max-width: 729px) and (min-width: 680px){
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-top: 130px;
+      }
+
+     
 
 
 `;
@@ -69,9 +84,17 @@ export const Headingh4 = styled.h4`
       font-weight: 600;
       line-height: 65px;
 
+      @media (max-width: 1400px) and (min-width: 1363px){
+      padding-left: 330px;
+      padding-right: 330px; 
+      font-size: 45px;
+
+      }
+      
+
       @media (max-width: 1364px) and (min-width: 1200px){
-      padding-left: 300px;
-      padding-right: 300px; 
+      padding-left: 290px;
+      padding-right: 290px; 
       font-size: 45px;
 
       }

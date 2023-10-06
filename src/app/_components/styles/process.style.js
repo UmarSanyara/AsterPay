@@ -6,6 +6,7 @@ export const Maindiv = styled.div`
   gap: 112px;
   position: relative;
   padding-top: 130px;
+  padding-bottom: 130px;
   .watermark {
     position: absolute;
     top: -20%;
