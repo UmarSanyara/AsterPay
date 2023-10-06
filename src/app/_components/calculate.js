@@ -27,7 +27,6 @@ import{
     Textolabel,
     Buttondiv,
     Getbutton,
-    Containdiv,
  
    
 
@@ -56,10 +55,8 @@ const calculate = () => {
    
    
     
-     <Containdiv>
+     
       <Backgrounddiv image={BackgroundImage}>
-
-
 
         
 
@@ -72,10 +69,6 @@ const calculate = () => {
         the exact amount your recipient will receive,
         including all fees. We believe in providing full clarity for your transactions.
         </Detp>
-
-        </Backgrounddiv>
-
-       
 
         <Collectivediv>
 
@@ -222,14 +215,12 @@ const calculate = () => {
 
         
         </Collectivediv>
-        </Containdiv>
-       
 
 
 
 
-     
-     
+
+      </Backgrounddiv>
   )
 }
 
