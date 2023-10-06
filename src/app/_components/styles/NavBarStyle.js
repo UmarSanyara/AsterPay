@@ -87,7 +87,7 @@ export const Nav = styled.div`
     }
   }
 
-} 
+}
 
 `;
 
@@ -123,7 +123,7 @@ export const Items = styled.div`
   flex-direction: column;
   h3 {
     color: #fff;
-    font-family: Jost;
+    font-family: "Jost";
     font-size: 18px;
     white-space: nowrap;
     padding-top: 40px;
@@ -137,7 +137,7 @@ export const Items = styled.div`
     width: 69px;
     height: 8px;
     border-radius: 50px 50px 0px 0px;
-    background: var(--white, #fff);
+    background: ${(props) => (props.isActive ? "" : "")};
     display: ${(props) => (props.isActive ? "block" : "none")};
     transition: display 0.3s;
   }
@@ -194,7 +194,7 @@ export const NavRes = styled.div`
   }
 `;
 export const ResItems = styled.div`
-  border-bottom: 1px solid #fff;
+  /* border-bottom: 1px solid #fff; */
   cursor: pointer;
   h3 {
     color: #fff;
