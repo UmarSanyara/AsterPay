@@ -133,6 +133,7 @@ export const Inputdiv = styled.div`
     width: 70%;
     height: 72.6px;
     border: 0px;
+    border-radius: 10px;
     color: #6a6969;
     font-family: "Jost";
     font-size: 20px;
@@ -140,6 +141,16 @@ export const Inputdiv = styled.div`
     font-weight: 400;
     line-height: 20.862px; /* 104.31% */
     outline: none;
+    @media only screen and (max-width: 650px) {
+      border-radius: 20px;
+    }
+    @media only screen and (max-width: 550px) {
+      border-radius: 30px;
+      padding-left: 10px;
+    }
+    @media only screen and (max-width: 450px) {
+      border-radius: 40px;
+    }
   }
 
   .button {
