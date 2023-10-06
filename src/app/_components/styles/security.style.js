@@ -44,7 +44,7 @@ export const Contentdiv = styled.div`
     padding-top: 70px;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -143,7 +143,7 @@ export const Headingh4 = styled.h4`
     padding-right: 25px;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) {
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -191,7 +191,7 @@ export const Detailp = styled.p`
     line-height: normal;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) {
     font-size: 11px;
     font-style: normal;
     font-weight: 500;
@@ -304,25 +304,11 @@ export const Textingdiv = styled.div`
     padding-left: 8px;
   }
 
-<<<<<<< HEAD
   @media (max-width: 999px) and (min-width: 850px) {
     padding-left: 4px;
   }
   @media (max-width: 849px) and (min-width: 750px) {
     padding-left: 4px;
-=======
-  @media (max-width: 999px) and (min-width: 850px){
-    padding-left: 8px;
-    gap: 15px
-  }
-  @media(max-width: 849px) and (min-width: 750px){
-    padding-left: 8px;
-    gap: 15px
-  }
-  @media(max-width: 749px) and (min-width: 390px){
-    padding-left: 8px;
-    gap: 7px
->>>>>>> 31e28f53f158a0bebd28cfdd7b32f883b2148480
   }
 `;
 
@@ -440,9 +426,72 @@ export const LogoImgdiv = styled.div`
       height: 21px;
     }
 
-    .ThreeD {
-      width: 25px;
-      height: 29px;
+    @media (max-width: 425px) {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 200px;
+
+      .Financial {
+        width: 28px;
+        height: 21px;
+      }
+
+      .ThreeD {
+        width: 25px;
+        height: 29px;
+      }
+
+      .Biometric {
+        width: 25px;
+        height: 28px;
+      }
+
+      .Fraud {
+        width: 28px;
+        height: 28px;
+      }
+
+      .Certified {
+        width: 25px;
+        height: 31px;
+      }
+    }
+
+    @media (max-width: 749px) and (min-width: 426px) {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 200px;
+
+      .Financial {
+        width: 28px;
+        height: 21px;
+      }
+
+      .ThreeD {
+        width: 25px;
+        height: 29px;
+      }
+
+      .Biometric {
+        width: 25px;
+        height: 28px;
+      }
+
+      .Fraud {
+        width: 28px;
+        height: 28px;
+      }
+
+      .Certified {
+        width: 25px;
+        height: 31px;
+      }
     }
 
     .Biometric {
@@ -490,7 +539,9 @@ export const Headh5 = styled.h5`
     line-height: normal;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+}
+
+@media(max-width: 425px) {
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
@@ -534,7 +585,7 @@ export const Parap = styled.p`
     line-height: 18px;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) {
     padding-top: 5px;
     font-size: 12px;
     font-style: normal;

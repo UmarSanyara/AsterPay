@@ -14,6 +14,9 @@ import ImportantQuestions from "./_components/important";
 import Bar from "./_components/Bar";
 import Connect from "./_components/connect";
 import Footer from "./_components/Footer";
+import Discover from "./_components/discover";
+import Calculate from "./_components/calculate";
+
 function Page() {
   return (
     <main className={styles.main}>
@@ -21,9 +24,11 @@ function Page() {
       <WelcomePage />
       <Bar />
       <WhyPage />
+      <Discover />
       <Globalreach />
       <Sendmoney />
       <Process />
+      <Calculate />
       <ImportantQuestions />
       <Security />
       <Help />

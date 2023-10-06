@@ -34,7 +34,7 @@ export const Maindiv = styled.div`
       padding-right: 20px;
       }
 
-      @media (max-width: 425px) and (min-width: 390px){
+      @media (max-width: 425px) {
       padding-left: 30px;
       padding-right: 30px;
       }
@@ -106,7 +106,7 @@ export const Headingh4 = styled.h4`
 
       }
 
-      @media (max-width: 425px) and (min-width: 390px){
+      @media (max-width: 425px) {
       padding-left: 0px;
       padding-right: 0px; 
       font-size: 26px;
@@ -158,7 +158,7 @@ export const Questiondiv = styled.div`
 padding-top: 63px;
 }
 
-@media (max-width: 425px) and (min-width: 390px){
+@media (max-width: 425px) {
 
 padding-top: 30px;
 display: flex;
@@ -232,7 +232,7 @@ export const Boxdiv = styled.div`
 
 }
 
-@media (max-width: 425px) and (min-width: 390px){
+@media (max-width: 425px) {
     width: 320px;
     padding-bottom: 25px;
 
@@ -303,7 +303,7 @@ export const Quesh6 = styled.h6`
 
 }
 
-@media (max-width: 425px) and (min-width: 390px){
+@media (max-width: 425px) {
     font-size: 22px;
     padding-top: 15px;
 
@@ -358,7 +358,7 @@ export const Answerp = styled.p`
         line-height: 13px;
 }
 
-@media (max-width: 425px) and (min-width: 390px){
+@media (max-width: 425px) {
     padding-top: 10px;
         font-size: 15px;
         line-height: 19px;
@@ -397,7 +397,7 @@ padding-bottom: 6.98px;
    }
 
 
-   @media (max-width: 425px) and (min-width: 390px){
+   @media (max-width: 425px) {
 
 .online{
 width: 59px;
@@ -428,7 +428,7 @@ padding-bottom: 0px;
 
    }
 
-   @media (max-width: 425px) and (min-width: 390px){
+   @media (max-width: 425px) {
     .oversea{
     width: 47px;
     height: 48px;
@@ -456,7 +456,7 @@ padding-bottom: 0px;
 
     }
 
-    @media (max-width: 425px) and (min-width: 390px){
+    @media (max-width: 425px) {
         .safe{
     width: 49px;
     height: 48px;

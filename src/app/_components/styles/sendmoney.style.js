@@ -54,7 +54,7 @@ export const Backgrounddiv = styled.div`
     margin-top: 0px;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) {
     background: rgba(242, 243, 249, 0.5);
     width: 100%;
     height: 650px;
@@ -281,7 +281,7 @@ export const Contentdiv = styled.div`
     text-align: center;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) {
     padding-top: 7.54px;
     padding-left: 20px;
     padding-right: 20px;
@@ -513,14 +513,121 @@ export const Detailp = styled.p`
     line-height: normal;
   }
 
-  @media (max-width: 649px) and (min-width: 600px) {
-    padding-top: 14px;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  @media (max-width: 599px) and (min-width: 390px) {
+}
+
+@media (max-width: 1149px) and (min-width: 1100px){
+
+padding-top: 23px;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+@media (max-width: 1099px) and (min-width: 1050px){
+
+padding-top: 20px;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+@media (max-width: 1049px) and (min-width: 1000px){
+
+padding-top: 19px;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+
+@media (max-width: 999px) and (min-width: 900px){
+
+padding-top: 17px;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+@media (max-width: 899px) and (min-width: 850px){
+
+padding-top: 17px;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+@media (max-width: 850px) and (min-width: 800px){
+
+padding-top: 17px;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+
+@media (max-width: 799px) and (min-width: 750px){
+
+padding-top: 16px;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+@media (max-width: 749px) and (min-width: 700px){
+
+padding-top: 15px;
+font-size: 13.5px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+@media (max-width: 699px) and (min-width: 650px){
+
+padding-top: 14px;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+@media (max-width: 649px) and (min-width: 600px){
+
+padding-top: 14px;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+@media (max-width: 599px) {
+
     padding-top: 13px;
     color: #4743c9;
     font-family: "Jost";
