@@ -182,7 +182,7 @@ export const Dets = styled.div`
     justify-content: center;
     gap: 38px;
 
-    Image {
+    .Media {
       cursor: pointer;
     }
   }
@@ -192,6 +192,17 @@ export const Dets = styled.div`
       align-items: center;
       justify-content: center;
       gap: 30px;
+      
+      h3 {
+        font-size: 15px;
+      }
+    }
+    .links {
+      gap: 28px;
+      .Media {
+        width: 13px;
+        height: 14px !important;
+      }
     }
   }
 
@@ -206,11 +217,10 @@ export const Dets = styled.div`
     }
     .links {
       gap: 28px;
-
       .Media {
         cursor: pointer;
-        width: 15px;
-        height: 13px !important;
+        width: 13px;
+        height: 14px !important;
       }
     }
   }
@@ -244,6 +254,20 @@ export const DetsLast = styled.div`
     }
     Image {
       cursor: pointer;
+    }
+  }
+
+  @media (max-width: 630px) {
+    .info {
+      h3 {
+        font-size: 15px;
+      }
+    }
+    .links {
+      gap: 20px !important;
+      h3 {
+        font-size: 15px;
+      }
     }
   }
   @media (max-width: 584px) {
