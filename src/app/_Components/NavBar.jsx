@@ -12,10 +12,11 @@ import {
   FixNav,
 } from "./styles/NavBarStyle";
 import { Link } from "react-scroll";
-
+import Cross from "../_assets/images/CrossIcon.png";
 const NavBar = () => {
   const [activeItem, setActiveItem] = useState(null);
   const [isNavResOpen, setIsNavResOpen] = useState(false);
+  const [isCrossActive, setIsCrossActive] = useState(false);
 
   function handleItemClick(index) {
     setActiveItem(index === activeItem);
@@ -23,9 +24,12 @@ const NavBar = () => {
 
   const toggleNavRes = () => {
     setIsNavResOpen(!isNavResOpen);
+    setIsCrossActive(!isCrossActive);
   };
+
   const closeNavRes = () => {
     setIsNavResOpen(false);
+    setIsCrossActive(false);
   };
   return (
     <FixNav>
@@ -66,11 +70,21 @@ const NavBar = () => {
         </NavRes>
 
         <Image
-          className="Ham"
+          className={`Cross ${isCrossActive ? "active" : ""}`}
+          Open={isNavResOpen}
+          src={Cross}
+          onClick={() => {
+            closeNavRes();
+          }}
+        />
+        <Image
+          className={`Ham ${!isCrossActive ? "active" : ""}`}
+          Open={isNavResOpen}
           src={HamBurger}
           alt="Menu"
           onClick={toggleNavRes}
         />
+
         <Image className="Logo" src={Logo} alt="Logo" />
         <NavItems>
           <Items onClick={() => handleItemClick(0)} isActive={activeItem === 0}>
