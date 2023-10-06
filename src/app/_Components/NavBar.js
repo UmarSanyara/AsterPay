@@ -3,11 +3,13 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../_assets/images/Logo.png";
 import HamBurger from "../_assets/images/HamBurger.png";
+import Cross from "../_assets/images/CrossIcon.png";
 import { Nav, NavItems, Items, NavRes, ResItems } from "./Styles/NavBarStyle";
 
 const NavBar = () => {
   const [activeItem, setActiveItem] = useState(0);
   const [isNavResOpen, setIsNavResOpen] = useState(false);
+  const [isCrossActive, setIsCrossActive] = useState(false);
 
   const handleItemClick = (index) => {
     setActiveItem(index === activeItem ? null : index);
@@ -15,10 +17,12 @@ const NavBar = () => {
 
   const toggleNavRes = () => {
     setIsNavResOpen(!isNavResOpen);
+    setIsCrossActive(!isCrossActive);
   };
 
   const closeNavRes = () => {
     setIsNavResOpen(false);
+    setIsCrossActive(false);
   };
 
   return (
@@ -45,13 +49,10 @@ const NavBar = () => {
         </ResItems>
       </NavRes>
 
-      <Image
-        className="Ham"
-        src={HamBurger}
-        alt="Menu"
-        onClick={toggleNavRes}
-      />
-      <Image className="Logo" src={Logo} alt="Logo" />
+      <Image  className={`Cross ${isCrossActive ? "active" : ""}`} Open={isNavResOpen} src={Cross}  onClick={() => {closeNavRes();}}   />
+      <Image className={`Ham ${!isCrossActive ? "active" : ""}`}  Open={isNavResOpen}  src={HamBurger} alt="Menu" onClick={toggleNavRes}/>
+
+      <Image className="Logo" src={Logo} alt="Logo"/>
       <NavItems>
         <Items onClick={() => handleItemClick(0)} isActive={activeItem === 0}>
           <h3>Home</h3>

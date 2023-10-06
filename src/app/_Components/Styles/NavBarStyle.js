@@ -12,6 +12,10 @@ justify-content: center;
 padding: 0px 161px 0px 82px; 
 gap: 217px;
 position: relative;
+.Cross
+{
+ display: none;
+}
 .Ham
 {
   display: none;
@@ -75,12 +79,25 @@ position: relative;
   padding: 0px 50px 0px 50px; 
   gap: 0px !important;
   min-height: 80px !important;
+  .Cross
+{
+ width: 40px;
+ height: 40px;
+ cursor: pointer ;
+
+ &.active {
+    display: block;
+  }
+}
   .Ham
 {
-  display: block;
   width: 40px !important;
   height: 40px !important;
   cursor: pointer ;
+
+  &.active {
+    display: block;
+  }
 }
 .Logo
 {
@@ -92,11 +109,25 @@ position: relative;
 @media (max-width : 390px)
 {
   min-height: 80px !important;
+  .Cross
+{
+  width: 30px !important;
+ height: 30px !important;
+ cursor: pointer ;
+
+ &.active {
+    display: block;
+  }
+}
   .Ham
 {
-  display: block;
   width: 30px !important;
-  height: 30px !important;
+ height: 30px !important;
+  cursor: pointer ;
+
+  &.active {
+    display: block;
+  }
 }
 .Logo
 {
