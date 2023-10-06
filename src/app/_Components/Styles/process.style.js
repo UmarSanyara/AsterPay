@@ -9,7 +9,7 @@ export const Maindiv = styled.div`
   padding-bottom: 130px;
   .watermark {
     position: absolute;
-    top: -20%;
+    top: 0%;
     left: 0%;
     @media only screen and (max-width: 1200px) {
       top: 0%;
