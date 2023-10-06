@@ -165,7 +165,7 @@ export const Buttondiv = styled.div`
   display: flex;
   justify-content: flex-end;
   @media only screen and (max-width: 650px) {
-    padding-right: 10%;
+    padding-right: 25%;
   }
   .button {
     width: 190px;

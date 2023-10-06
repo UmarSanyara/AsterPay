@@ -150,8 +150,15 @@ export const Sectiondetail = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 127.778% */
-    @media only screen and (max-width: 470px) {
+
+    @media only screen and (max-width: 650px) {
       font-size: 16px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    @media only screen and (max-width: 470px) {
+      font-size: 14px;
+      padding-right: 5px;
     }
   }
 `;

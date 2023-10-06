@@ -94,6 +94,9 @@ export const Section = styled.div`
     font-weight: 600;
     padding-top: 129px;
     line-height: normal;
+    @media only screen and (max-width: 450px) {
+      font-size: 24px;
+    }
   }
 
   .sectionpara {
@@ -105,6 +108,9 @@ export const Section = styled.div`
     font-weight: 400;
     padding-top: 37px;
     line-height: 26px; /* 130% */
+    @media only screen and (max-width: 450px) {
+      font-size: 16px;
+    }
   }
 `;
 export const Icondiv = styled.div`
