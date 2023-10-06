@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const FixNav = styled.div`
   width: 100%;
@@ -180,23 +180,14 @@ export const NavRes = styled.div`
   z-index: 999;
   border-radius: 20px;
   overflow: hidden;
-  animation: move 1s;
-
-  @keyframes move {
-    from {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0%);
-      opacity: 1;
-    }
-  }
+  display: ${({ Open }) => (Open ? "block" : "none")};
+  animation: ${({ Open }) => (Open ? slideIn : slideOut)} 1s !important;
 `;
 export const ResItems = styled.div`
-  /* border-bottom: 1px solid #fff; */
+  border-bottom: 1px solid #fff;
   cursor: pointer;
   h3 {
+    font-family: Jost;
     color: #fff;
     margin-top: 30px;
     font-size: 20px;
@@ -210,8 +201,25 @@ export const ResItems = styled.div`
     color: yellowgreen;
   }
 `;
-export const StyledLink = styled.a`
-  text-decoration: none;
-  scroll-behavior: smooth;
-  transition: color 0.3s ease-in-out; /* Example transition */
+
+const slideIn = keyframes`
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
+const slideOut = keyframes`
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
 `;

@@ -9,7 +9,6 @@ import {
   Items,
   NavRes,
   ResItems,
-  StyledLink,
   FixNav,
 } from "./styles/NavBarStyle";
 import { Link } from "react-scroll";
@@ -19,47 +18,51 @@ const NavBar = () => {
   const [isNavResOpen, setIsNavResOpen] = useState(false);
 
   const handleItemClick = (index) => {
-    setActiveItem(index === activeItem);
+    setActiveItem(index === activeItem ? null : index);
   };
 
   const toggleNavRes = () => {
     setIsNavResOpen(!isNavResOpen);
   };
-
+  const closeNavRes = () => {
+    setIsNavResOpen(false);
+  };
   return (
     <FixNav>
       <Nav>
-        <NavRes style={{ display: isNavResOpen ? "block" : "none" }}>
-          <ResItems>
-            <Link to="Home" smooth={true} duration={1500}>
+        <NavRes Open={isNavResOpen}>
+          <Link to="Home" smooth={true} duration={1500}>
+            <ResItems onClick={closeNavRes}>
               <h3>Home</h3>
-            </Link>
-          </ResItems>
-          <ResItems>
-            <Link to="Sendmoney" smooth={true} duration={1500}>
+            </ResItems>
+          </Link>
+
+          <Link to="Sendmoney" smooth={true} duration={1500}>
+            <ResItems onClick={closeNavRes}>
               <h3>Send Money</h3>
-            </Link>
-          </ResItems>
-          <ResItems>
-            <Link to="Security" smooth={true} duration={1500}>
+            </ResItems>
+          </Link>
+          <Link to="Security" smooth={true} duration={1500}>
+            <ResItems onClick={closeNavRes}>
               <h3>Security</h3>
-            </Link>
-          </ResItems>
-          <ResItems>
-            <Link to="Support" smooth={true} duration={1500}>
+            </ResItems>
+          </Link>
+          <Link to="Support" smooth={true} duration={1500}>
+            <ResItems onClick={closeNavRes}>
               <h3>Support</h3>
-            </Link>
-          </ResItems>
-          <ResItems>
-            <Link to="Aboutus" smooth={true} duration={1500}>
+            </ResItems>
+          </Link>
+          <Link to="Aboutus" smooth={true} duration={1500}>
+            <ResItems onClick={closeNavRes}>
               <h3>About Us</h3>
-            </Link>
-          </ResItems>
-          <ResItems>
-            <Link to="Aboutus" smooth={true} duration={1500}>
+            </ResItems>
+          </Link>
+
+          <Link to="Aboutus" smooth={true} duration={1500}>
+            <ResItems onClick={closeNavRes}>
               <h3>Blog</h3>
-            </Link>
-          </ResItems>
+            </ResItems>
+          </Link>
         </NavRes>
 
         <Image
