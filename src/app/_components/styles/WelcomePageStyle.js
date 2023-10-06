@@ -9,7 +9,9 @@ export const Main = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
+  .button {
+    cursor: pointer;
+  }
   .Clock {
     position: absolute;
     top: -100px;

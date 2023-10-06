@@ -147,7 +147,7 @@ const WelcomePage = () => {
               </div>
             </PaymentDetails>
 
-            <button>Get Started</button>
+            <button className="button">Get Started</button>
           </Banner>
         </BannerPart>
       </Main>
