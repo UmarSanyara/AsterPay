@@ -84,5 +84,17 @@ export const CountryName = styled.span`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  @media only screen and (max-width: 450px) {
+    font-size: 20px;
+  }
 `;
-export const CountryFlag = styled.div``;
+export const CountryFlag = styled.div`
+  .flag {
+    width: 56px;
+    height: 56px;
+    @media only screen and (max-width: 450px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+`;

@@ -37,6 +37,7 @@ export const Headingdiv = styled.div`
     padding-top: 36px;
     @media only screen and (max-width: 750px) {
       font-size: 32px;
+      line-height: normal;
     }
     @media only screen and (max-width: 450px) {
       font-size: 24px;
@@ -53,9 +54,11 @@ export const Headingdiv = styled.div`
     width: 100%;
     @media only screen and (max-width: 750px) {
       font-size: 18px;
+      padding-top: 20px;
     }
     @media only screen and (max-width: 450px) {
       font-size: 16px;
+      padding-top: 20px;
     }
   }
   .button {
