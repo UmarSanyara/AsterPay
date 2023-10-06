@@ -229,6 +229,7 @@ export const Videodiv = styled.div`
 `;
 
 export const Viddiv = styled.div`
+  cursor: pointer;
   @media (max-width: 749px) {
     padding-top: 30px;
   }
