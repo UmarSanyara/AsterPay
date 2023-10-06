@@ -129,6 +129,7 @@ export const Blog = styled.div`
   flex-direction: column;
   @media only screen and (max-width: 500px) {
     width: 80%;
+    height: auto;
   }
   .bluetext {
     color: #4743c9;
@@ -160,7 +161,7 @@ export const Blog = styled.div`
     padding-left: 21px;
     padding-top: 19px;
     width: 95%;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
   .blogimage {
     @media only screen and (max-width: 500px) {
