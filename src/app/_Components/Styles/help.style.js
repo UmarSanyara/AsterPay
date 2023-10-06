@@ -87,6 +87,7 @@ export const Sectionbox = styled.div`
   @media only screen and (max-width: 650px) {
     width: 80%;
     height: auto;
+    padding-bottom: 20px;
   }
   .headtext {
     color: #0d1b3e;
@@ -149,6 +150,8 @@ export const Inputdiv = styled.div`
       padding-left: 10px;
     }
     @media only screen and (max-width: 450px) {
+      font-size: 16px;
+      width: 60%;
       border-radius: 40px;
     }
   }

@@ -20,6 +20,10 @@ export const Main = styled.div`
   @media (max-width: 838px) {
     padding: 0px 40px 0px !important;
   }
+  @media only screen and (max-width: 500px) {
+    height: 500px;
+    gap: 60px;
+  }
   @media (max-width: 390px) {
     padding: 0px 20px 0px !important;
   }
