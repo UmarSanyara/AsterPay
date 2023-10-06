@@ -127,7 +127,7 @@ export const Senddiv = styled.div`
     align-items: center;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     padding-left: 0px;
     padding-right: 0px;
     display: flex;
@@ -189,7 +189,7 @@ export const Imagediv = styled.div`
     }
   }
 
-  @media (max-width: 599px) and (min-width: 390px) {
+  @media (max-width: 599px) and (min-width: 0px) {
     padding-top: 20px;
 
     .sendpic {
@@ -197,11 +197,6 @@ export const Imagediv = styled.div`
       height: 342px;
     }
   }
-`;
-
-export const OnlineMoneydiv = styled.div`
-  display: flex;
-  flex-direction: column;
 `;
 
 export const MoneyPicdiv = styled.div`
@@ -235,7 +230,7 @@ export const MoneyPicdiv = styled.div`
     }
   }
 
-  @media (max-width: 599px) and (min-width: 390px) {
+  @media (max-width: 599px) and (min-width: 0px) {
     .dollarsimage {
       float: right;
       width: 103px;
@@ -400,7 +395,7 @@ export const Texth4 = styled.h4`
     line-height: 28px;
   }
 
-  @media (max-width: 599px) and (min-width: 390px) {
+  @media (max-width: 599px) and (min-width: 0px) {
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -467,7 +462,7 @@ export const Detailp = styled.p`
 
   @media (max-width: 999px) and (min-width: 900px) {
     padding-top: 17px;
-    font-size: 17px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -475,7 +470,7 @@ export const Detailp = styled.p`
 
   @media (max-width: 899px) and (min-width: 850px) {
     padding-top: 17px;
-    font-size: 15px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -483,7 +478,7 @@ export const Detailp = styled.p`
 
   @media (max-width: 850px) and (min-width: 800px) {
     padding-top: 17px;
-    font-size: 15px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -491,7 +486,7 @@ export const Detailp = styled.p`
 
   @media (max-width: 799px) and (min-width: 750px) {
     padding-top: 16px;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -499,141 +494,22 @@ export const Detailp = styled.p`
 
   @media (max-width: 749px) and (min-width: 700px) {
     padding-top: 15px;
-    font-size: 13.5px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
   }
 
-  @media (max-width: 699px) and (min-width: 650px) {
+  @media (max-width: 699px) and (min-width: 0px) {
     padding-top: 14px;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
   }
+`;
 
-}
-
-@media (max-width: 1149px) and (min-width: 1100px){
-
-padding-top: 23px;
-font-size: 19px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-@media (max-width: 1099px) and (min-width: 1050px){
-
-padding-top: 20px;
-font-size: 19px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-@media (max-width: 1049px) and (min-width: 1000px){
-
-padding-top: 19px;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-
-@media (max-width: 999px) and (min-width: 900px){
-
-padding-top: 17px;
-font-size: 17px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-@media (max-width: 899px) and (min-width: 850px){
-
-padding-top: 17px;
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-@media (max-width: 850px) and (min-width: 800px){
-
-padding-top: 17px;
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-
-@media (max-width: 799px) and (min-width: 750px){
-
-padding-top: 16px;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-@media (max-width: 749px) and (min-width: 700px){
-
-padding-top: 15px;
-font-size: 13.5px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-@media (max-width: 699px) and (min-width: 650px){
-
-padding-top: 14px;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-
-@media (max-width: 649px) and (min-width: 600px){
-
-padding-top: 14px;
-font-size: 11px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-}
-@media (max-width: 599px) {
-
-    padding-top: 13px;
-    color: #4743c9;
-    font-family: "Jost";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
+export const OnlineMoneydiv = styled.div`
+  display: flex;
+  flex-direction: column;
 `;

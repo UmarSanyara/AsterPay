@@ -22,7 +22,7 @@ export const Maindiv = styled.div`
     padding-right: 20px;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -52,7 +52,7 @@ export const Contentdiv = styled.div`
     align-items: center;
   }
 
-  @media (max-width: 749px) and (min-width: 426px) {
+  @media (max-width: 749px) and (min-width: 0px) {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -93,7 +93,7 @@ export const Textdiv = styled.div`
     gap: 22px;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     display: flex;
     flex-direction: column;
     padding-right: 50px;
@@ -143,7 +143,7 @@ export const Headingh4 = styled.h4`
     padding-right: 25px;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -191,7 +191,7 @@ export const Detailp = styled.p`
     line-height: normal;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     font-size: 11px;
     font-style: normal;
     font-weight: 500;
@@ -237,7 +237,7 @@ export const Imagediv = styled.div`
     }
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,7 +379,7 @@ export const LogoImgdiv = styled.div`
     }
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     width: 40px;
     height: 40px;
     display: flex;
@@ -539,17 +539,15 @@ export const Headh5 = styled.h5`
     line-height: normal;
   }
 
-}
-
-@media(max-width: 425px) {
-    font-size: 17px;
+  @media (max-width: 425px) and (min-width: 0px) {
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
   }
 
   @media (max-width: 749px) and (min-width: 426px) {
-    font-size: 17px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -585,9 +583,9 @@ export const Parap = styled.p`
     line-height: 18px;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     padding-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
@@ -595,7 +593,7 @@ export const Parap = styled.p`
 
   @media (max-width: 749px) and (min-width: 426px) {
     padding-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
@@ -634,9 +632,9 @@ export const Paraextp = styled.p`
     line-height: 18px;
   }
 
-  @media (max-width: 425px) and (min-width: 390px) {
+  @media (max-width: 425px) and (min-width: 0px) {
     padding-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
@@ -644,7 +642,7 @@ export const Paraextp = styled.p`
 
   @media (max-width: 749px) and (min-width: 426px) {
     padding-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
