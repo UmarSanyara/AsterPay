@@ -10,30 +10,44 @@ export const Backgrounddiv = styled.div`
    display: flex;
    flex-direction: column;
    background-size: cover;
+   margin-bottom: 412px;
 
    @media (max-width: 1289px) and (min-width: 1081px)  {
     height: 500px;
+    margin-bottom: 350px;
 
    }
    @media (max-width: 1080px) and (min-width: 958px)  {
     height: 400px;
+    margin-bottom: 320px;
 
    }
 
 
    @media (max-width: 957px) and (min-width: 775px)  {
     height: 400px;
+    margin-bottom: 220px;
 
    }
 
    
    @media (max-width: 774px) and (min-width: 750px)  {
     height: 400px;
+    margin-bottom: 220px;
+
+    
 
    }
 
-   @media (max-width: 684px) and (min-width: 40px)  {
+   @media (max-width: 749px) and (min-width: 459px)  {
     height: 500px;
+    margin-bottom: 170px;
+
+   }
+
+   @media (max-width: 458px) {
+    height: 420px;
+    margin-bottom: 210px;
 
    }
 
@@ -192,7 +206,7 @@ export const Videodiv = styled.div`
    padding-top: 58px;
    display: flex;
    justify-content: space-between;
-   padding-left: 48px;
+   
    
    .vido{
 
@@ -315,9 +329,19 @@ padding-top: 217px;
     width: 193px;
 height: 223px;
 }
+
+@media (max-width: 1340px) and (min-width: 1290px)  {
+
+    .alm{
+
+width: 155px;
+height: 180px;
+}
+
+}
   
 
-@media (max-width: 1289px)  {
+@media (max-width: 1289px) and (min-width: 1081px)   {
 
   
     padding-top: 173px;
@@ -382,11 +406,13 @@ height: 126px;
     align-self: flex-end;
     margin-top: -20px;
     z-index: -3;
+    display: none;
 .alm{
 
 width: 108px;
 height: 126px;
 }
+display: none;
 
 }
 
@@ -395,11 +421,24 @@ height: 126px;
 export const Doldiv = styled.div`
 
 padding-top: 237px;
+padding-left: 48px;
 
 .dolw{
     width: 199.85px;
     height: 165px;
 }
+
+@media (max-width: 1340px) and (min-width: 1290px)  {
+
+padding-top: 180px;
+
+.dolw{
+width: 165px;
+height: 137px;
+}
+
+}
+
 
 
 @media (max-width: 1289px) and (min-width: 1081px)  {
@@ -416,6 +455,7 @@ padding-top: 237px;
 @media (max-width: 1080px) and (min-width: 958px)  {
 
     padding-top: 120px;
+    padding-left: 15px;
 
 .dolw{
 width: 165px;
@@ -427,6 +467,7 @@ height: 137px;
 @media (max-width: 957px) and (min-width: 750px)  {
 
     padding-top: 120px;
+    padding-left: 10px;
 
 .dolw{
 width: 135px;
@@ -440,6 +481,7 @@ height: 112px;
 
     
     padding-top: 123px;
+    padding-left: 5px;
 
 .dolw{
 width: 135px;
@@ -451,6 +493,7 @@ height: 112px;
 @media (max-width: 749px){
 
     padding-top: 30px;
+    padding-left: 0px;
 
 .dolw{
 width: 135px;
