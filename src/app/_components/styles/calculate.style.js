@@ -1,6 +1,208 @@
 import styled from "styled-components";
 
 
+
+export const Selectli = styled.li`
+ 
+   display: flex;
+   
+   gap: 13px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 42px;
+   
+    color: #0D1B3E;
+    align-items: center;
+    
+    
+     
+@media (max-width: 1079px) and (min-width: 790px){
+       
+     
+    display: flex;
+    gap: 17px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 29px;
+    color: #0D1B3E;
+   
+    
+   
+         
+          }
+
+          @media (max-width: 790px) and (min-width: 680px){
+            display: flex;
+    gap: 21px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 38px;
+    color: #0D1B3E;
+    align-items: center;
+
+          }
+
+          @media (max-width: 679px) {
+
+            display: flex;
+    gap: 16px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 26px;
+    color: #0D1B3E;
+
+          }
+      
+    
+   
+
+
+`;
+
+
+export const Seleul = styled.ul`
+ 
+   
+
+   
+   
+    
+    background-color: white;
+   align-self: flex-end;
+   
+   margin-right: 13px;
+   margin-bottom: 10px;
+   overflow: hidden;
+  
+  
+
+   border-radius: 10px;
+
+   .hober:hover{
+    background-color: #c8c6f7;
+    
+
+   }
+
+
+   
+@media (max-width: 1079px) and (min-width: 790px){
+       
+    background-color: white;
+   align-self: flex-end;
+   
+   margin-right: 13px;
+   margin-bottom: 10px;
+   overflow: hidden;
+  
+  
+
+   border-radius: 10px;
+
+   .hober:hover{
+    background-color: #c8c6f7;
+    
+
+   }
+
+      
+       }
+   
+       @media (max-width: 790px) and (min-width: 680px){
+      
+        background-color: white;
+   align-self: flex-end;
+   
+   margin-right: 13px;
+   margin-bottom: 10px;
+   overflow: hidden;
+  
+  
+
+   border-radius: 10px;
+
+   .hober:hover{
+    background-color: #c8c6f7;
+    
+
+   }
+
+          
+   }
+   
+   @media (max-width: 679px) {
+   
+    background-color: white;
+   align-self: flex-end;
+   
+   margin-right: 13px;
+   margin-bottom: 10px;
+   overflow: hidden;
+  
+  
+
+   border-radius: 10px;
+
+   .hober:hover{
+    background-color: #c8c6f7;
+    
+
+   }
+
+      
+   
+   }
+   
+   
+   
+
+
+
+`;
+export const Selecteddiv = styled.div`
+  
+  padding-left: 18px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-right: 12px;
+ display: flex;
+ justify-content: space-between;
+
+ border-radius: 10px;
+background: #EDEFFF;
+   
+
+`;
+
+export const Exdddiv = styled.div`
+
+width: 200px;
+height: 130px;
+background-color: aqua;
+
+.opt{
+    width: 120px;
+    height: 60px;
+    background-color: beige;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opte{
+    width: 20px;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+}
+
+`;
+
+
 export const Backgrounddiv = styled.div`
 
    width: 100%;
@@ -405,12 +607,10 @@ gap: 15px;
 
 export const Toconvertdiv = styled.div`
  
- padding-left: 18px;
- padding-top: 10px;
- padding-bottom: 10px;
- padding-right: 12px;
+
  display: flex;
- justify-content: space-between;
+ flex-direction: column;
+
  width: 376px;
  border-radius: 10px;
 background: #EDEFFF;
@@ -490,6 +690,10 @@ font-size: 10px;
     font-size: 12px;
 }
 
+@media (max-width: 679px){
+    font-size: 11px;
+}
+
 `;
 
 export const Moneylabel= styled.div`
@@ -514,6 +718,10 @@ font-size: 16px;
 
 @media (max-width: 790px) and (min-width: 680px){
     font-size: 19px;
+}
+
+@media (max-width: 679px){
+    font-size: 16px;
 }
 
 `;
@@ -602,8 +810,49 @@ align-items: center;
 
 `;
 
+
+
+export const Imagerecdiv = styled.div`
+width: 34px;
+height: 34px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+.flaglogo{
+    width: 34px;
+    height: 34px;
+}
+
+@media (max-width: 1079px) and (min-width: 790px){
+    width: 24px;
+    height: 24px;
+
+    .flaglogo{
+    width: 24px;
+    height: 24px;
+}
+       
+       }
+
+       @media (max-width: 679px) {
+       
+    
+        width: 24px;
+    height: 24px;
+
+    .flaglogo{
+    width: 24px;
+    height: 24px;
+    }
+
+}
+
+
+`;
+
 export const Namespan = styled.span`
-color: #0D1B3E;
+
 font-family: Jost;
 font-size: 22px;
 font-style: normal;
@@ -616,6 +865,10 @@ line-height: normal;
     }
 
     @media (max-width: 1079px) and (min-width: 790px){
+        font-size: 19px;
+    }
+
+    @media (max-width: 679px) {
         font-size: 16px;
     }
 
@@ -624,7 +877,7 @@ line-height: normal;
 
 export const Topddiv = styled.div`
 
-
+display: flex;
 
 .button{
     width: 16px;
@@ -640,6 +893,53 @@ height: 4px;
 }
 
     }
+
+    @media (max-width: 680px)  {
+       
+
+       .button{
+       width: 9px;
+   height: 4px;
+   }
+   
+       }
+
+
+
+`;
+
+
+
+export const Toprecddiv = styled.div`
+
+display: flex;
+
+.button{
+    width: 16px;
+height: 8px;
+}
+
+@media (max-width: 1079px) and (min-width: 791px) {
+       
+
+    .button{
+    width: 9px;
+height: 4px;
+}
+
+    }
+
+    @media (max-width: 680px)  {
+       
+
+       .button{
+       width: 9px;
+   height: 4px;
+   }
+   
+       }
+
+
 
 
 
@@ -822,6 +1122,13 @@ height: 218px;
 }
 
 
+
+
+
+`;
+
+
+export const Simoption = styled.option`
 
 
 

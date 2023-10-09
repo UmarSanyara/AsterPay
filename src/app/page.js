@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <main className={styles.main}>
      
-     <Sendmoney/>
-     <Important/>
-     <Security/>
+ 
+  
+     
      <Calculate/>
-    <Discover/>
+   
 
       
     </main>
